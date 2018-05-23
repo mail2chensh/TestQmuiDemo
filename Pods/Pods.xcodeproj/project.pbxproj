@@ -1,0 +1,1835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01065166393BA612179ED8146B3E2F9C /* UIImageView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4EA73CEEA56447A0CD46484DF4CD46 /* UIImageView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0121A39DE13999310A69447F31A30176 /* UIControl+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = E95C975064A7BA327753E8523A9007D5 /* UIControl+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		067C5EA6FB4AA3E16DFB14837D46753A /* QMUIVisualEffectView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0130D3D84041286033F9A1D9985918 /* QMUIVisualEffectView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		07A6FC479EFECB2C3164B43302DF84D7 /* QMUISegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEBB57C17CFC8A5D95774DB85018AE7 /* QMUISegmentedControl.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		07B8EFF5FBA0E89EC0243BD69E7EF82D /* QMUICollectionViewPagingLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DCE1FA5236A74FD95703D8A8EF06EC4 /* QMUICollectionViewPagingLayout.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0B069CC3CD41D4DF2E3D54A1CDF1F6D2 /* UIBezierPath+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FBD8ADA05589F72703A70F81D648FC28 /* UIBezierPath+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BF634945C4C4398227A77B96B87F293 /* QMUIToastBackgroundView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AB8901D0B671002B0074C41446E5F50 /* QMUIToastBackgroundView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C31172445D19CA97ECAD8A0865D466B /* QMUIMarqueeLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = A959F20CD79D536A5B2E637B039463C3 /* QMUIMarqueeLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D0B0AF9940E3A1C35819985414A919A /* QMUICommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B767DF74D156661E00FEA90858A1D7B5 /* QMUICommonViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F173FC1291200D056619CB473C4BE89 /* QMUIToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE27AC137FF64BF1752B3284997766EE /* QMUIToastContentView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F6AE4B1E3EEAC5EF04A1E9C38735E54 /* UIFont+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = C87514A555214045E7AF0B5F5CCF3688 /* UIFont+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0F85EEDFBA2E3DDC3BB42C774C4F403F /* NSObject+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6981B54808C9268C6AEF0396866EF8DE /* NSObject+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0FC90143C2D11572C7C1EA6A9952BCB2 /* UIBezierPath+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D809FE699108A7DBC81419E67B1C8 /* UIBezierPath+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		102EE5298032D8E452596C674F2EE3BA /* UIImage+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BC0300A21DAEC892C7C4612BB9FF326 /* UIImage+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		11102DD43E2C2B66222FE6852A1FE3B6 /* UITextField+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B864095755595F8B3D748A41967F112 /* UITextField+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		123D4A7FE5133B8403C7237F4805FDC4 /* QMUIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 326591CC592E0A300699856BF46D88E9 /* QMUIButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		126B1169A1416A962AE98AC640A81B5E /* QMUITableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1A6C70E2C7ACF28CD24C39F3FC0F2C /* QMUITableView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1434978A711BB7A86978438EE07C1400 /* QMUICore.h in Headers */ = {isa = PBXBuildFile; fileRef = 748078FF91BE0206655F28BDB4A3C69C /* QMUICore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		161EB3FB30853C1720FAB18ACE4EEEF3 /* QMUIImagePickerPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DA695B440B30175544B6B4D1F29984 /* QMUIImagePickerPreviewViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1627A5FABD5BEF752AB1A9D4CEFF0FD7 /* QMUIConfigurationMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = BD5FBFFEB223BCF20DD5B2DAB4FECED2 /* QMUIConfigurationMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16917BFE39CB0E4CAFD348D0B499032B /* QMUIImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93292885F8FDE0E1C3475B78255C1FC6 /* QMUIImagePickerViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		173BD0D78356A38A4AD7CD3291B5E5D3 /* QMUIMarqueeLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E7CAE11C7B48FCC4FB7EE9411BA658B7 /* QMUIMarqueeLabel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		18296FEED7508C87BE4A5EE417D05A06 /* QMUILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = FD0BCF2F345CF1B4E18D33369649013B /* QMUILabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1834A7DF1075A125528250E64B8C1981 /* QMUIPieProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CB04068A93602A7D42495CD46B6A5816 /* QMUIPieProgressView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		18E7D73E08D209ECAE5127877C73DEE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D04169F1BDD9637FAAEA45355361AB7 /* Foundation.framework */; };
+		196BFABACD8A60FEF26B8F82E575AEA4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D04169F1BDD9637FAAEA45355361AB7 /* Foundation.framework */; };
+		1988919AE86130120E57870FA70293FE /* QMUIAssetsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DAB6D95A455403E1D6C575475E0F8101 /* QMUIAssetsManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19FCCECF7A235B61FCAFE47D2E517686 /* QMUIEmotionInputManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 29BD66E75B499EB2B5376DE9CD021077 /* QMUIEmotionInputManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1A110736B092A440DFF148CD31791D83 /* QMUIStaticTableViewCellData.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F7F2A0A5BEBA7CD6E78F2833E2ADEE4 /* QMUIStaticTableViewCellData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C4F35092211F226DC56EFD272A292BC /* UINavigationController+FDFullscreenPopGesture.h in Headers */ = {isa = PBXBuildFile; fileRef = 86B4247F7A95B7E0EF1CA2F6A5B7C4DB /* UINavigationController+FDFullscreenPopGesture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1D1211E24D1CBC14DE5552A56F6B8BAE /* QMUITableView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE5EB92513886578DC5CC7B9E549631D /* QMUITableView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F9934D3735877AB43A5823D586D2A05 /* NSAttributedString+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 512142D835A59E0A3174AD5E3F4C66F5 /* NSAttributedString+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FC5DB6141CDA032BB9CD583626DF1A4 /* QMUITestView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E40E63FD43930243AE7E637A1215CE9 /* QMUITestView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20F246FF2FD83B9326F8A6228B7ED9C9 /* QMUITabBarViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 85A51DED6E8078F9C41B96CFA1B92D87 /* QMUITabBarViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		211BD595B538AEE99565903DD462DDEE /* UIViewController+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = B93E0051C46D65871FBA09006991CA41 /* UIViewController+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		226594E362F244F0D47F90832E1104A7 /* Pods-TestQmui-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0FB7075F61B8537FA8E4DD478F6B771 /* Pods-TestQmui-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22CD8EFEE193F2989F2C70CDB007A3E8 /* UINavigationController+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 020231A2BCFD88B717A3DD0CD7A78442 /* UINavigationController+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255F119FD3C9EB27D4A1C849A90D7709 /* UITabBar+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E89B22D85FB45BB12D90EAAA612E373 /* UITabBar+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256AA22815CF3C743673D126DD0A3ADB /* UIView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 509E2F3FF5B32AFA713CB5E7B5EAAB79 /* UIView+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2610B176340A78575241484767E1F4EA /* UINavigationController+NavigationBarTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 4601B098B19FF37C1E96867B5A38A4D9 /* UINavigationController+NavigationBarTransition.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		268426AD2C2BB40267261035AC1DD6C7 /* QMUIFloatLayoutView.h in Headers */ = {isa = PBXBuildFile; fileRef = C3244897F8F0D4F56F534AF24F2FB246 /* QMUIFloatLayoutView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2763315D775B9343B323A904C3E042F9 /* QMUIAssetsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5876134FB427925CA9B14AE1050D1815 /* QMUIAssetsManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2CD0623A8CC34A66A0D6834929487365 /* UIView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 12515730DB8543AB412D09C9469923CC /* UIView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E195E53100BED9225E302A480F7750B /* UIButton+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = BCCCB37E29FE0F3C8E1C96C5E18C67F8 /* UIButton+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2EC6310AC59E85D3D52D6A0D6B048186 /* QMUITableViewHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0A0C0F07F42B4FAB391D63D940CD0A /* QMUITableViewHeaderFooterView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2F27FDB59CE32AA6F21D5646B8D9A2C8 /* NSParagraphStyle+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ECAF62DBB3A761D1C7B8A074C604B05 /* NSParagraphStyle+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F50064E0575983F70865FD33F074B7F /* QMUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E043A1CD4BF45E3BFB8AB1564316F38 /* QMUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		305ED472EB2C6CBDA8C4982BDC0FF251 /* QMUIMoreOperationController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8817418B5F4455C3685D2FF651D77FD /* QMUIMoreOperationController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		31AD4458626533F1E7B2E2E5A951FD15 /* QMUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 22104B53436775BF388C9D9E8ADA93AC /* QMUIHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		31C00BF0D424892A4499BA615965316F /* UITabBarItem+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3828E83632EE826591D77B67AC4AC9 /* UITabBarItem+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		324E9D2F9D538170B2AF63B2E9702791 /* QMUIOrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 49CE6DEC603035370584BD94F3E9FC67 /* QMUIOrderedDictionary.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		33448386316A04FD62FE3E7D7C1A5053 /* UITableView+QMUIStaticCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 048936568318E98A02D9A0736E09CBD8 /* UITableView+QMUIStaticCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33BE5DD9AD00359726A2B221B1744418 /* QMUIZoomImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 76C02E207B615C222B8CCA03C12C88CE /* QMUIZoomImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		357C477FA00FA6C2740098416E8DB42B /* QMUIResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0795B512C9CA536E6CB933C887F14819 /* QMUIResources.bundle */; };
+		378F8C970BFC7ECED9CC9355B2F58411 /* UITabBarItem+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = CCC43E3E34929A8CAB20ED9A8CC082CE /* UITabBarItem+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		385D764A8C9A0E709099F605CDE27852 /* NSArray+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A47CE59DE61A57DACFBDA28A56B197 /* NSArray+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		394D2FD39F686C3947D807C1802102F1 /* QMUIEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = EB66BF1D1CA46A887A11D6DD4C32B846 /* QMUIEmotionView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4227426E36A48D63D76D9D676F52D7C2 /* QMUIButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 72CAF2454CA4350DDA3FBE8DFA70BEC7 /* QMUIButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		447D6C441D1ECECD60F67CA2E7441185 /* UIWindow+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 3136436ADC938EB5B5A5269E83D3640C /* UIWindow+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47194E2DE2E0103D97D8A029743924A0 /* CALayer+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F59962E1D1A5B3EFE7BA0DC71FE71B1E /* CALayer+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		476B252D653BBC60576D7FC507977271 /* QMUIConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F07A9E43DBB22EACFB062BD4AF6272A /* QMUIConfiguration.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4B57070B29CBE01D774EC93FAF891E60 /* QMUIModalPresentationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3FFC9019596A9CCC525976F5AE1E9BE /* QMUIModalPresentationViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4C252D0BEC2E201A48F48F60849C7A8A /* QMUIImagePickerHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B92E354C7ADE07E2ECB5B228A47C0E8 /* QMUIImagePickerHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DF11B4C34167BAFD4D2105FDF635302 /* QMUINavigationTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 42A644E7CF36F3B612AABD8F6221F0F1 /* QMUINavigationTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E454B3B54FBEB7C458FC2075B770F94 /* QMUICommonDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 965A0B64F9D95650A44E6181A825F777 /* QMUICommonDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53107616A138A53BB2A5E226894EBF16 /* QMUIImagePreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = A259F79D18FD3C8F9F24086A269B7116 /* QMUIImagePreviewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		559DEB3A9C293EDB299F078234353BA7 /* QMUISearchController.h in Headers */ = {isa = PBXBuildFile; fileRef = AF365CC3269D6C1C3D65321912973D8A /* QMUISearchController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		561CDA5FC725B96AE2B4E2C618BA6C9E /* QMUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CF91002485086860EB321B97E227F833 /* QMUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5657A1A32601E0ABB7A9730B09216028 /* CALayer+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7088D2F10486EC7E1A5163E0CDF565A7 /* CALayer+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56AB0F68C27D9150CB071AF9D445CE36 /* UIScrollView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F1DF9456A4B3D7EEC398058D833639E6 /* UIScrollView+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		585B20FF476D9F3FD6D5B18DEB2EB846 /* UITabBar+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D467541269B7C1F9DD1C28B53E3598C4 /* UITabBar+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5B9BA63F9CBEF99B578FC1D3BC9D7587 /* UITableView+QMUIStaticCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EE1CDEF9B3256B60A5A4F2F0E02DF2E /* UITableView+QMUIStaticCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5BF0C48AA8E7A8BDC9A084999B89524C /* QMUIGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F97BE8D5B851B9DE64E69A222BAD7C /* QMUIGridView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		5FA98BF8E83342D3EFED2E0862F8AD34 /* QMUIEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F3130AF551897D900269249FEB935D /* QMUIEmptyView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		606B4C4949621177C04EEDE463ACB228 /* UILabel+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CD854C6EE51E204FB92FF8F5B60AA9C /* UILabel+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		649FEF39428866C3E5506E052E21BB6F /* UIColor+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FC59AE7E665480D8CE18CEC2A86869CF /* UIColor+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		672B8E1309056DF61BF7BA338951BD82 /* UITableView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F3A04733B792772FD509D2E30B3C483 /* UITableView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		69C63CD9B46293230B5CAD5ACD2D1143 /* QMUICellHeightCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C76052AA691403073CA77D26042ACA7D /* QMUICellHeightCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6B936DE03103D2D128EFE4394D0EA463 /* QMUIGridView.h in Headers */ = {isa = PBXBuildFile; fileRef = E75C6A9971A1EA36DAC8CAEEA71A9577 /* QMUIGridView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6BF473AD03CB4D860862A2404398C44A /* QMUIImagePickerCollectionViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 548C25A306DE7C64CC0F5FF5F39FEE67 /* QMUIImagePickerCollectionViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E3E8F26B67C294E6DFD714D0C57A8DB /* QMUIHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = AC7F18D1C7D556B4D68E15E79751F441 /* QMUIHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E963CE9285F8F2387320AD3EC3F4900 /* QMUINavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FB720CBF8440BDD16E5AB506C27328D /* QMUINavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7128C7E8B721891E2EE28370AAB1BEEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D04169F1BDD9637FAAEA45355361AB7 /* Foundation.framework */; };
+		72455BE19666DE1902C8CBBC7B6D2B09 /* UIViewController+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C184AD8CB03C327C2D677FE2456869A /* UIViewController+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		72A908AA3CBB7ECA676D23B229743E5B /* QMUIAssetsGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = 698AEF06CED6125E06D9063071AD3BB2 /* QMUIAssetsGroup.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		72F9E728FF7ED680A849D952811215B0 /* QMUINavigationTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DAC83EAAEB671C733990E2BADFCAF3E /* QMUINavigationTitleView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		736B57A16080B3AA0B4FC0B4C5BDE9D2 /* QMUICommonViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 880BDC5EADCAD568354966AD69EC33CF /* QMUICommonViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		754C05A0CBA63F2BA1F38AE81FBB3046 /* QMUISearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = DE43C33DDB66B229D7D9B731B2266EEE /* QMUISearchBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		767B165D62FB11A52D009398B7D458BB /* QMUIImagePreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = FBC8F9AE078B9F573ABB0FCADFD41B45 /* QMUIImagePreviewView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		776702E8743007AC3AFC1E7F76299616 /* FDFullscreenPopGesture-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9ED33412CC71CA346777EA79AAA37FE /* FDFullscreenPopGesture-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781CC2A658CD3974708200052B76F36F /* QMUIToastContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE499F56A21047D2262BC7E38579CFEB /* QMUIToastContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78221B17E89172114C9848AC7DF27D47 /* UICollectionView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B36E3D1F2C22367727453408B32D751 /* UICollectionView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7AA706BBF92EF30CD159D8B005DD3873 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CCEF912D7CC66D2FBCBCFB81C16B744 /* CoreGraphics.framework */; };
+		7ACD3AC94ECA0D840CA2D5C24E49119D /* QMUITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 81F9FAF06A757B7BF4C878AE28313F47 /* QMUITextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BA18206CB54276D2B8A38BAD733B161 /* UIGestureRecognizer+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 719D81B7F0932CAA836E2A4CDFF78442 /* UIGestureRecognizer+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		802D853E5AA9EBE87706DB4CB246CAD8 /* QMUIAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D93E285208C7112B8182E4E12FCF2EF /* QMUIAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		809FCFC32CA1E605F60C5E8AB2FAD21F /* NSAttributedString+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 82B5FAAB4C58408EEE911D28C0062E0F /* NSAttributedString+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		841E148FE71C100B6D9647793D3EA677 /* QMUIPopupMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1EA8483C675B8D9EAFA2E125F0633F /* QMUIPopupMenuView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		86653A234D92A0B4987BE8693D90C84F /* QMUILabel.m in Sources */ = {isa = PBXBuildFile; fileRef = E60D58A7853AF9875F1DCABDBF36E3CE /* QMUILabel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		889BE4ECD97A307F320D08A5EA888D02 /* QMUIImagePickerPreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B725BA5174037D23CD90ECE717EFD7E /* QMUIImagePickerPreviewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C6BE3434F99C33FAE379ACA21E41D8A /* UISearchBar+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = AB5CDBB6C5256A4FE47BF65572B234C6 /* UISearchBar+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F72ACA4C416C9F99DCBFE3F5004A107 /* QMUIToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = C36A8D5292C656C33F947EC2E20308D6 /* QMUIToastView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9018236FFEB7D98CCB6AC68BF3A6C0C2 /* QMUIAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C99509E4B388697B58ED5F593592DE8 /* QMUIAsset.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		911B93C9C771193EB2DAE43B5A0E8DC1 /* UIColor+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = FCFBF2EE78820108DE5749B4550770E8 /* UIColor+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9189320614255318A39F5667668E0923 /* QMUICommonTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = B3892C1536FB5ED2FC23A889101827E7 /* QMUICommonTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9404B95A108081B29722232895E9BF14 /* QMUIAlbumViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D731ACCB6750C6A85F6054B44CD33D6 /* QMUIAlbumViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		961C512AB1C9648B17D1B101461C29EC /* QMUISlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48352E252225CAAD0ED82BB9FF003A /* QMUISlider.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		96B2DA11C21AF9DE88A591C5EE0D21A8 /* QMUITableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C04BEA20A0F6A2702C1D661BD3AB02DA /* QMUITableViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		993CCA96163252C61444A6C9F4A41A61 /* QMUITableViewProtocols.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A75640CCD9587CA4452E1C3DDB8A988 /* QMUITableViewProtocols.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A87D1D93761F424DBF33165560CE683 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = E842BCA44BFADB97CD8DCFF00ABA92F2 /* UINavigationController+FDFullscreenPopGesture.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9AA27D9D5C3ADD7D4D2D836330EB4BDD /* UIControl+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399C40072BCB3FE8715A51C6E976BA3 /* UIControl+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9C2D4A5B821A30F94F3E93D37E45BAB4 /* UINavigationBar+Transition.m in Sources */ = {isa = PBXBuildFile; fileRef = 533130AE925E153DB98CCAF363E7F92E /* UINavigationBar+Transition.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9CB0AA9424CED0E157BF4D4A766B776E /* QMUITextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3863A37BCFC08B5CE87BA64F040F0AB0 /* QMUITextField.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9D10CA045F8BC83A009047A01E4AD2D0 /* UISearchBar+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C94433CA79D4422F31F4A2180C8E5EA /* UISearchBar+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9EFCB1881BB06929D81CC68F99CBD1A5 /* QMUIKeyboardManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A61C5B9C36DA1D6B665549666C777F10 /* QMUIKeyboardManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9F14884CAEE5B75625B7513BE69253AA /* QMUIDialogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2A7BB8BB66E185718B40D8878B95BAF /* QMUIDialogViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9F3FA947721B87C9ED8D2FDBAD141D94 /* QMUIOrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A05B828FFFDB72B287E315C07234202 /* QMUIOrderedDictionary.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A023A1ED17E60C89AA2A0B927EF58F0C /* UITableView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DA961CFAA8987A347680C231C42E4CA4 /* UITableView+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A0DA8B8625DF739178210E1A76A78BE3 /* QMUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 135E7918BFC75CAD63A03A34DC6C2916 /* QMUIKit-dummy.m */; };
+		A17EAC896CB371DFC80B6835CA94134E /* NSObject+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B98A4AB4501B0F8DAF806475D0ABED4 /* NSObject+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1B875AC87583BAC7D4D5E816EBC0E53 /* QMUICellHeightCache.h in Headers */ = {isa = PBXBuildFile; fileRef = ED44EA412B24561318E7348A439BA9AD /* QMUICellHeightCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1FD6AF8306524F2928CA6F2F1E59F13 /* QMUIToastAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 7411AB0BA287388347002BC2CA7C4E2F /* QMUIToastAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2879C2C189A6C208D0396D12FF02F51 /* QMUIKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 66DD25898BD89BEAFAD2B87116BE6AF9 /* QMUIKeyboardManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A2D577B9A4223F3D8F02D0AF1F351B6E /* QMUICollectionViewPagingLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 8821F5BBCC396358004A98CD27EA9324 /* QMUICollectionViewPagingLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A30AF697037C198106CDA248C98ECA7A /* QMUIDialogViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 296F10E83BAC30F1A08BF1BB97072129 /* QMUIDialogViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3D8A68428248758DBA8C04574AC9081 /* UIImage+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BACBD11DE18E361322B4527720D2E24 /* UIImage+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A465D5C3BD6C331922BE7E454005AF94 /* QMUIZoomImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFBA2FF699E8ED7CBAE95A0B1101139 /* QMUIZoomImageView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A507CBC9EB9BDBD204046389ECFCEBA6 /* QMUIImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD88F46BDD5D1A751865CB25FC4F1669 /* QMUIImagePreviewViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A75EB6EFC2BCB49E1F256929E4C6F7FC /* NSString+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = A3B8B6C4C84873AF297AA2AD23B0488E /* NSString+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7AC541BD4642C8085F588E73216122C /* QMUITips.m in Sources */ = {isa = PBXBuildFile; fileRef = 406E471B458EC8CED56E42845628022A /* QMUITips.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A7F915DAFF730E4E0CC0A7F00EE1A3F2 /* UIButton+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = ADE429021E39A125EE25EE67903003F9 /* UIButton+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A817B3A5DAD7D234672A7095FE9B27EE /* QMUIMoreOperationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A2A805DF7BE38F9D7348CC795460495 /* QMUIMoreOperationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8570A3228B52971C5A6D0758AA3AA81 /* QMUIPieProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93D6C8A6DEF0A72C1B45D8979EA8F49A /* QMUIPieProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC0FE42F4AF14AA1D67DB717E2214CEB /* QMUIAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D5A463BBAD0687AA390F233D10FF230 /* QMUIAlertController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AC3DFF9284C7A2F6D39A3C0807CBCFF3 /* QMUIEmotionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 858D338437030BA5529CF2ADADCCDC04 /* QMUIEmotionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE2B4378E6A842A9914A97FFC0E241C8 /* QMUITableViewHeaderFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E64B5256FAA9C151607F316F5EA28D6 /* QMUITableViewHeaderFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF1645B5D864D7D50F7FB050AEF2AFEB /* QMUIModalPresentationViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A944AC6ACFCF19B2D72CBAA06990907 /* QMUIModalPresentationViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B15C9646649AE44D6EA5B9B82BE266E3 /* QMUIToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = E007E68C7B7AFA91234D76BD59FD4A40 /* QMUIToastView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B22D4848DD873B8DA80FBC2783D5857B /* UIFont+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BAECADE7FBBBCCA3B7F12601411E1FB /* UIFont+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5A4E3B42FE1130CEE8EF64D737E041C /* QMUIStaticTableViewCellDataSource.h in Headers */ = {isa = PBXBuildFile; fileRef = B3686334DD57248FC17F42B9AF46EDB7 /* QMUIStaticTableViewCellDataSource.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B76CF12DE365006472B0A5F720CE6099 /* UIImageView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = F5531EF785C92749FADE7DB04CAB84EC /* UIImageView+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B81FF5AA4C5AF4D524E192A58F18BC0F /* QMUIToastAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EECB794D0B37423994FD26AC58C8AAD /* QMUIToastAnimator.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B838131B71B8325D08453D7E83896260 /* UITextField+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 23C89C2683FEFB5FFF1C1F80AEC3CE23 /* UITextField+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B859C5260D4FDD942773B8C7AFBD72A1 /* NSString+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B959CDEF2E980E0337965B22F4B8276 /* NSString+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BA81D8D2192AD914A62A9E4F2FA7EFA1 /* QMUIEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE9790E3395B0797DCFFBDA770EC8DCB /* QMUIEmptyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB4BDF6801D4711D14BF0327536A31D6 /* UIActivityIndicatorView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 070A2BE6DC6C4A5911F78998DFCF8C0D /* UIActivityIndicatorView+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BBE9FCD66BF09045C18BA93B334DA307 /* QMUIConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 21A3493F03E9585460100603037564D8 /* QMUIConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC2893AA03D492C0CF69D914B04F68C8 /* UITextView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = ED031614E1EB4329664DCDE1B0B09FAD /* UITextView+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BE157AF0C17E5DD37CE4D5909776E02F /* QMUITips.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A41C5F947FD5F2C4A26F147CF0ED0CD /* QMUITips.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEE8B06924CBDDC77775C5E61788BE12 /* UICollectionView+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = FE988A708C61018681446AB58A59D478 /* UICollectionView+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		BEE910036B04A9A1902E6502D65E04ED /* QMUIImagePreviewView.h in Headers */ = {isa = PBXBuildFile; fileRef = 41215D67B53F1E38BF0EAC41071FFCD2 /* QMUIImagePreviewView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C0A891CDDAEC46887EFAC184DFAD6EC9 /* QMUINavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 696A1608D875062236910ABF1B1A8110 /* QMUINavigationController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C2783FC6F04632DCE54CF15EB382E5F1 /* NSArray+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = BAFA33807672829667705E501E6A4EB7 /* NSArray+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C32F198927E6C670514FEB9F4CD69C7A /* QMUITextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 81E03168F1030C8C82DA640C75564DED /* QMUITextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6A695A1CF88AFE3F8BD59772E0206A0 /* UILabel+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = D26A2D95A450BD2B34AEADB235EB9B4F /* UILabel+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C9159396CD783B001C8420BF725E9B45 /* UIGestureRecognizer+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D24EBBAB2D5E748515E86514538BCA9 /* UIGestureRecognizer+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9C6187821AAA480499D18BE57EF3972 /* QMUIToastBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 232AB851BF3EAB3E31FD9DB927A7C8E5 /* QMUIToastBackgroundView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CA0F2DE8780B62123ECA765574678A07 /* QMUIPopupContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 291972DB0792E18E283BCF193893B3ED /* QMUIPopupContainerView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CB26FB9957C92826C15BEA36400EC3B0 /* QMUIAssetsGroup.h in Headers */ = {isa = PBXBuildFile; fileRef = 1853CD56AA7B74794EECFEF9F8CE9F34 /* QMUIAssetsGroup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDB1DC2AF3F0B85D0428340483E00F79 /* QMUICommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1458A85CBE895E04253AF62600987A7 /* QMUICommonTableViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CDCE8D356706F7AB7FE5963BDF96DDEA /* UINavigationBar+Transition.h in Headers */ = {isa = PBXBuildFile; fileRef = F639A41C16108AA8FF8EB6CDB0DF7492 /* UINavigationBar+Transition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9A7F1791C190B1BB6EAC473A45D3A6 /* QMUIFloatLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EF8CB894BD6E42D4B4753A18CF692B0 /* QMUIFloatLayoutView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D0B6C8A800D1F0776840BDBB35115257 /* QMUIAlbumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AC5E25F3ABC09F1BF3419172D7A7BC /* QMUIAlbumViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D37C98D2F3EFF9F7A34D6B7929392FF8 /* QMUIImagePickerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C7B52D620259E615E35767E27CF358 /* QMUIImagePickerHelper.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D37F3B6897875009542CD98B612EE352 /* QMUIImagePickerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D804251F5C8B5FB7F58B0598DEA7FFE6 /* QMUIImagePickerCollectionViewCell.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D3B0E1E1ADC4324063E4A9FD52340253 /* QMUISlider.h in Headers */ = {isa = PBXBuildFile; fileRef = 697E052AECC0F58A99CFFD7D970C69CE /* QMUISlider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4B0E3662F90AEF1A05657BB165233D1 /* UIScrollView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 29A968D57EB93BB77E66C681946D7111 /* UIScrollView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7775F53B81075CBD7A3D4D7DDB518AB /* UINavigationController+NavigationBarTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = E23D462FA8AE39267DFDB1D41074D1A7 /* UINavigationController+NavigationBarTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D781128AFCE2534E9AC41B0FF31F8EDC /* QMUIPopupMenuView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4507F48C7D3AC33B6957226E50B3B1F0 /* QMUIPopupMenuView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D91F660B3A42815F8F0DC8F62A743E00 /* QMUIImagePickerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 80985E84A38EF3DE11C18B589788A8E5 /* QMUIImagePickerViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA620D3059C53F133BE1D263F77204B3 /* QMUIPopupContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F152F7DFB4F1B1B9251C6A4C2E0D0FD /* QMUIPopupContainerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAA72EF8E42B67013BBF97A3E4C1C098 /* QMUITabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4149AF4671E6D1837D33F08DEA69058 /* QMUITabBarViewController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DC3D57A3F14ED533C009EE7750834348 /* QMUITextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A6DA607CB780C227AC0AB55CCAD15A4 /* QMUITextView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E39CA5C00D716F93711371E5E7764BC4 /* QMUIEmotionInputManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A4502954C1B3F49533A3C0AFDE6D97A4 /* QMUIEmotionInputManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E47B94D07B1E2DE45723E482871D636E /* QMUIAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 373B3D7958B9C83E6F84478F949424EE /* QMUIAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5857CD01CF961A2F7FFB709946C2C18 /* QMUITestView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9604F4C10D79F6A580A46DDFFB153E6F /* QMUITestView.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E96F830C6A8698C2DE917E7AF0E6DA69 /* UITextView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 6121E1B927EDEEF6AA96D1AFB06DA9EA /* UITextView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA20F98123EADC9D54F4530F5597D83A /* QMUISearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 202079CC0E6385946F65BA7051F14DBE /* QMUISearchController.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EB15ACC528CA4C8E394542F1BBDB5B38 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DAAFE9EF15CDF74F955B267D27D202D2 /* UIKit.framework */; };
+		ED6E98645C4864F191AF0F5333405673 /* UIActivityIndicatorView+QMUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BC2025B05EA7142FA55186F3FA5E889 /* UIActivityIndicatorView+QMUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDC33888BFD4EF56C199AC49D83F3F85 /* QMUISegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A17796838ADEEFBCBE76B4B7E8E8A0 /* QMUISegmentedControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDF223B5D213439A4CB3404BBD697931 /* QMUISearchBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 21C8086A21AF556F0C7E4E06890F9CDD /* QMUISearchBar.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EE35A321577E552E7A3F044346E6FA7E /* Pods-TestQmui-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DB858BC8FE0AEB3898D65F39F8A56775 /* Pods-TestQmui-dummy.m */; };
+		EF9B1306AFAA356051055507EE4A50FC /* QMUIStaticTableViewCellDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 1227A10877CD3C0097E0A7F4563E4EA0 /* QMUIStaticTableViewCellDataSource.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F27D3044A1BAB59E71B6D713B0EEC131 /* UIWindow+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 42548BAFC4FCD96CBDF8AB91BEA824FE /* UIWindow+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F465E68EF47BC91C6A95BFC2CE43FED6 /* QMUITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = B864939B7AF438CF2080C9B550B8BFD9 /* QMUITableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F83BE7F4FB93C83DEE35B999196B5AE2 /* QMUIVisualEffectView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EFA41E454A1E4F9D62D47F55147196 /* QMUIVisualEffectView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA3F6C26BBAFE2E3AF2192D3CF755FBE /* UINavigationController+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BD06BA0F8CCA3D54BB6B340DF8EB429 /* UINavigationController+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FA619FCF63E9A7D1A4C8099347433B20 /* QMUIStaticTableViewCellData.m in Sources */ = {isa = PBXBuildFile; fileRef = 70F70EC75DC6C51804288B0117791C57 /* QMUIStaticTableViewCellData.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FA9A3BA39DBDEB0A9D559ACD5BB17DDC /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B39F5BE062B7E6EC2DA09E9E1F8845 /* Photos.framework */; };
+		FB1F81EFD3ED40C7A4D4A1B3822A3528 /* FDFullscreenPopGesture-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD751252542A3CA99BA8EFFEEE16796 /* FDFullscreenPopGesture-dummy.m */; };
+		FB60DEDE74AD0E1D59BDB93F66DE1C39 /* NSParagraphStyle+QMUI.m in Sources */ = {isa = PBXBuildFile; fileRef = DBC9E6BCDAA867079B4C58B09DAC938E /* NSParagraphStyle+QMUI.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4207044C0CFD25FC6CE99BEAA6620876 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F71FC248875B67F53494C44B17B40EB;
+			remoteInfo = FDFullscreenPopGesture;
+		};
+		735CCC836BDB67DDA75E864DDAAA7DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C656226403FC84DFA2C9007832CA1315;
+			remoteInfo = QMUIKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		020231A2BCFD88B717A3DD0CD7A78442 /* UINavigationController+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+QMUI.h"; path = "QMUIKit/UIKitExtensions/UINavigationController+QMUI.h"; sourceTree = "<group>"; };
+		048936568318E98A02D9A0736E09CBD8 /* UITableView+QMUIStaticCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+QMUIStaticCell.h"; path = "QMUIKit/QMUIComponents/StaticTableView/UITableView+QMUIStaticCell.h"; sourceTree = "<group>"; };
+		070A2BE6DC6C4A5911F78998DFCF8C0D /* UIActivityIndicatorView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIActivityIndicatorView+QMUI.m"; sourceTree = "<group>"; };
+		0795B512C9CA536E6CB933C887F14819 /* QMUIResources.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = QMUIResources.bundle; path = QMUIKit/QMUIResources/QMUIResources.bundle; sourceTree = "<group>"; };
+		0AB8901D0B671002B0074C41446E5F50 /* QMUIToastBackgroundView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIToastBackgroundView.h; path = QMUIKit/QMUIComponents/ToastView/QMUIToastBackgroundView.h; sourceTree = "<group>"; };
+		0B1A6C70E2C7ACF28CD24C39F3FC0F2C /* QMUITableView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITableView.m; path = QMUIKit/QMUIComponents/QMUITableView.m; sourceTree = "<group>"; };
+		0BACBD11DE18E361322B4527720D2E24 /* UIImage+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIImage+QMUI.h"; sourceTree = "<group>"; };
+		0C94433CA79D4422F31F4A2180C8E5EA /* UISearchBar+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UISearchBar+QMUI.m"; path = "QMUIKit/UIKitExtensions/UISearchBar+QMUI.m"; sourceTree = "<group>"; };
+		0D93E285208C7112B8182E4E12FCF2EF /* QMUIAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIAlertController.h; path = QMUIKit/QMUIComponents/QMUIAlertController.h; sourceTree = "<group>"; };
+		0DAC83EAAEB671C733990E2BADFCAF3E /* QMUINavigationTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUINavigationTitleView.m; path = QMUIKit/QMUIComponents/QMUINavigationTitleView.m; sourceTree = "<group>"; };
+		0E40E63FD43930243AE7E637A1215CE9 /* QMUITestView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITestView.h; path = QMUIKit/QMUIComponents/QMUITestView.h; sourceTree = "<group>"; };
+		0E64B5256FAA9C151607F316F5EA28D6 /* QMUITableViewHeaderFooterView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITableViewHeaderFooterView.h; path = QMUIKit/QMUIComponents/QMUITableViewHeaderFooterView.h; sourceTree = "<group>"; };
+		1227A10877CD3C0097E0A7F4563E4EA0 /* QMUIStaticTableViewCellDataSource.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIStaticTableViewCellDataSource.m; path = QMUIKit/QMUIComponents/StaticTableView/QMUIStaticTableViewCellDataSource.m; sourceTree = "<group>"; };
+		12515730DB8543AB412D09C9469923CC /* UIView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIView+QMUI.h"; sourceTree = "<group>"; };
+		13046B84B92A0FD219B2558FB4885909 /* QMUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QMUIKit.framework; path = QMUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		135E7918BFC75CAD63A03A34DC6C2916 /* QMUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QMUIKit-dummy.m"; sourceTree = "<group>"; };
+		1853CD56AA7B74794EECFEF9F8CE9F34 /* QMUIAssetsGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIAssetsGroup.h; path = QMUIKit/QMUIComponents/AssetLibrary/QMUIAssetsGroup.h; sourceTree = "<group>"; };
+		1A05B828FFFDB72B287E315C07234202 /* QMUIOrderedDictionary.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIOrderedDictionary.h; path = QMUIKit/QMUIComponents/QMUIOrderedDictionary.h; sourceTree = "<group>"; };
+		1A944AC6ACFCF19B2D72CBAA06990907 /* QMUIModalPresentationViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIModalPresentationViewController.h; path = QMUIKit/QMUIComponents/QMUIModalPresentationViewController.h; sourceTree = "<group>"; };
+		1D24EBBAB2D5E748515E86514538BCA9 /* UIGestureRecognizer+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIGestureRecognizer+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIGestureRecognizer+QMUI.h"; sourceTree = "<group>"; };
+		202079CC0E6385946F65BA7051F14DBE /* QMUISearchController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUISearchController.m; path = QMUIKit/QMUIComponents/QMUISearchController.m; sourceTree = "<group>"; };
+		21A3493F03E9585460100603037564D8 /* QMUIConfiguration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIConfiguration.h; path = QMUIKit/QMUICore/QMUIConfiguration.h; sourceTree = "<group>"; };
+		21C8086A21AF556F0C7E4E06890F9CDD /* QMUISearchBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUISearchBar.m; path = QMUIKit/QMUIComponents/QMUISearchBar.m; sourceTree = "<group>"; };
+		22104B53436775BF388C9D9E8ADA93AC /* QMUIHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIHelper.m; path = QMUIKit/QMUICore/QMUIHelper.m; sourceTree = "<group>"; };
+		22CE7B2D1BC07E30719EE659B2F6B924 /* Pods-TestQmui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestQmui.debug.xcconfig"; sourceTree = "<group>"; };
+		232AB851BF3EAB3E31FD9DB927A7C8E5 /* QMUIToastBackgroundView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIToastBackgroundView.m; path = QMUIKit/QMUIComponents/ToastView/QMUIToastBackgroundView.m; sourceTree = "<group>"; };
+		23C89C2683FEFB5FFF1C1F80AEC3CE23 /* UITextField+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextField+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITextField+QMUI.h"; sourceTree = "<group>"; };
+		24F3130AF551897D900269249FEB935D /* QMUIEmptyView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIEmptyView.m; path = QMUIKit/QMUIComponents/QMUIEmptyView.m; sourceTree = "<group>"; };
+		291972DB0792E18E283BCF193893B3ED /* QMUIPopupContainerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIPopupContainerView.m; path = QMUIKit/QMUIComponents/QMUIPopupContainerView.m; sourceTree = "<group>"; };
+		296F10E83BAC30F1A08BF1BB97072129 /* QMUIDialogViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIDialogViewController.h; path = QMUIKit/QMUIComponents/QMUIDialogViewController.h; sourceTree = "<group>"; };
+		29A968D57EB93BB77E66C681946D7111 /* UIScrollView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIScrollView+QMUI.h"; sourceTree = "<group>"; };
+		29BD66E75B499EB2B5376DE9CD021077 /* QMUIEmotionInputManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIEmotionInputManager.m; path = QMUIKit/QMUIComponents/QMUIEmotionInputManager.m; sourceTree = "<group>"; };
+		2BC2025B05EA7142FA55186F3FA5E889 /* UIActivityIndicatorView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIActivityIndicatorView+QMUI.h"; sourceTree = "<group>"; };
+		3136436ADC938EB5B5A5269E83D3640C /* UIWindow+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIWindow+QMUI.h"; sourceTree = "<group>"; };
+		326591CC592E0A300699856BF46D88E9 /* QMUIButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIButton.h; path = QMUIKit/QMUIComponents/QMUIButton.h; sourceTree = "<group>"; };
+		364C589F1FEA2A6F71E0B719115F651E /* Pods-TestQmui-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestQmui-frameworks.sh"; sourceTree = "<group>"; };
+		373B3D7958B9C83E6F84478F949424EE /* QMUIAsset.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIAsset.h; path = QMUIKit/QMUIComponents/AssetLibrary/QMUIAsset.h; sourceTree = "<group>"; };
+		3863A37BCFC08B5CE87BA64F040F0AB0 /* QMUITextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITextField.m; path = QMUIKit/QMUIComponents/QMUITextField.m; sourceTree = "<group>"; };
+		38EFA41E454A1E4F9D62D47F55147196 /* QMUIVisualEffectView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIVisualEffectView.h; path = QMUIKit/QMUIComponents/QMUIVisualEffectView.h; sourceTree = "<group>"; };
+		3A24B876DB0B5748B282044ECC28B9F6 /* FDFullscreenPopGesture.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FDFullscreenPopGesture.modulemap; sourceTree = "<group>"; };
+		3A2A805DF7BE38F9D7348CC795460495 /* QMUIMoreOperationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIMoreOperationController.h; path = QMUIKit/QMUIComponents/QMUIMoreOperationController.h; sourceTree = "<group>"; };
+		3BC0300A21DAEC892C7C4612BB9FF326 /* UIImage+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIImage+QMUI.m"; sourceTree = "<group>"; };
+		3CCEF912D7CC66D2FBCBCFB81C16B744 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		3D04169F1BDD9637FAAEA45355361AB7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E89B22D85FB45BB12D90EAAA612E373 /* UITabBar+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBar+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITabBar+QMUI.h"; sourceTree = "<group>"; };
+		406E471B458EC8CED56E42845628022A /* QMUITips.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITips.m; path = QMUIKit/QMUIComponents/QMUITips.m; sourceTree = "<group>"; };
+		41215D67B53F1E38BF0EAC41071FFCD2 /* QMUIImagePreviewView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePreviewView.h; path = QMUIKit/QMUIComponents/QMUIImagePreviewView.h; sourceTree = "<group>"; };
+		4149E103986C6D8F3E59A39E4C35B4DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42548BAFC4FCD96CBDF8AB91BEA824FE /* UIWindow+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIWindow+QMUI.m"; sourceTree = "<group>"; };
+		42A644E7CF36F3B612AABD8F6221F0F1 /* QMUINavigationTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUINavigationTitleView.h; path = QMUIKit/QMUIComponents/QMUINavigationTitleView.h; sourceTree = "<group>"; };
+		4399C40072BCB3FE8715A51C6E976BA3 /* UIControl+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIControl+QMUI.m"; sourceTree = "<group>"; };
+		44A47CE59DE61A57DACFBDA28A56B197 /* NSArray+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSArray+QMUI.m"; sourceTree = "<group>"; };
+		4507F48C7D3AC33B6957226E50B3B1F0 /* QMUIPopupMenuView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIPopupMenuView.h; path = QMUIKit/QMUIComponents/QMUIPopupMenuView.h; sourceTree = "<group>"; };
+		4601B098B19FF37C1E96867B5A38A4D9 /* UINavigationController+NavigationBarTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+NavigationBarTransition.m"; path = "QMUIKit/QMUIComponents/NavigationBarTransition/UINavigationController+NavigationBarTransition.m"; sourceTree = "<group>"; };
+		4890A1E5A25C3CF5B97F8B83FA64C1C1 /* Pods-TestQmui-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestQmui-acknowledgements.plist"; sourceTree = "<group>"; };
+		48C7B52D620259E615E35767E27CF358 /* QMUIImagePickerHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePickerHelper.m; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerHelper.m; sourceTree = "<group>"; };
+		49CE6DEC603035370584BD94F3E9FC67 /* QMUIOrderedDictionary.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIOrderedDictionary.m; path = QMUIKit/QMUIComponents/QMUIOrderedDictionary.m; sourceTree = "<group>"; };
+		49E1A8F212B7B33742E9CF9F586E0742 /* FDFullscreenPopGesture.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FDFullscreenPopGesture.framework; path = FDFullscreenPopGesture.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B36E3D1F2C22367727453408B32D751 /* UICollectionView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UICollectionView+QMUI.h"; sourceTree = "<group>"; };
+		4B725BA5174037D23CD90ECE717EFD7E /* QMUIImagePickerPreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePickerPreviewViewController.h; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerPreviewViewController.h; sourceTree = "<group>"; };
+		4B864095755595F8B3D748A41967F112 /* UITextField+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextField+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITextField+QMUI.m"; sourceTree = "<group>"; };
+		4B92E354C7ADE07E2ECB5B228A47C0E8 /* QMUIImagePickerHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePickerHelper.h; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerHelper.h; sourceTree = "<group>"; };
+		4B98A4AB4501B0F8DAF806475D0ABED4 /* NSObject+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSObject+QMUI.h"; sourceTree = "<group>"; };
+		4BAECADE7FBBBCCA3B7F12601411E1FB /* UIFont+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIFont+QMUI.h"; sourceTree = "<group>"; };
+		4FB720CBF8440BDD16E5AB506C27328D /* QMUINavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUINavigationController.h; path = QMUIKit/QMUIMainFrame/QMUINavigationController.h; sourceTree = "<group>"; };
+		509E2F3FF5B32AFA713CB5E7B5EAAB79 /* UIView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIView+QMUI.m"; sourceTree = "<group>"; };
+		512142D835A59E0A3174AD5E3F4C66F5 /* NSAttributedString+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSAttributedString+QMUI.h"; sourceTree = "<group>"; };
+		533130AE925E153DB98CCAF363E7F92E /* UINavigationBar+Transition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationBar+Transition.m"; path = "QMUIKit/QMUIComponents/NavigationBarTransition/UINavigationBar+Transition.m"; sourceTree = "<group>"; };
+		548C25A306DE7C64CC0F5FF5F39FEE67 /* QMUIImagePickerCollectionViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePickerCollectionViewCell.h; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerCollectionViewCell.h; sourceTree = "<group>"; };
+		55AD1DF54C76539CC5AFFFC35C1953EF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5876134FB427925CA9B14AE1050D1815 /* QMUIAssetsManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIAssetsManager.m; path = QMUIKit/QMUIComponents/AssetLibrary/QMUIAssetsManager.m; sourceTree = "<group>"; };
+		5A41C5F947FD5F2C4A26F147CF0ED0CD /* QMUITips.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITips.h; path = QMUIKit/QMUIComponents/QMUITips.h; sourceTree = "<group>"; };
+		5A6DA607CB780C227AC0AB55CCAD15A4 /* QMUITextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITextView.m; path = QMUIKit/QMUIComponents/QMUITextView.m; sourceTree = "<group>"; };
+		5C151DB8847174145EED62C19CF303B3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D1FB3E2A6DCD8EB27631A204FF10335 /* QMUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QMUIKit.xcconfig; sourceTree = "<group>"; };
+		5D3828E83632EE826591D77B67AC4AC9 /* UITabBarItem+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBarItem+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITabBarItem+QMUI.m"; sourceTree = "<group>"; };
+		5D731ACCB6750C6A85F6054B44CD33D6 /* QMUIAlbumViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIAlbumViewController.h; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIAlbumViewController.h; sourceTree = "<group>"; };
+		5DCE1FA5236A74FD95703D8A8EF06EC4 /* QMUICollectionViewPagingLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUICollectionViewPagingLayout.m; path = QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout.m; sourceTree = "<group>"; };
+		5EE1CDEF9B3256B60A5A4F2F0E02DF2E /* UITableView+QMUIStaticCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+QMUIStaticCell.m"; path = "QMUIKit/QMUIComponents/StaticTableView/UITableView+QMUIStaticCell.m"; sourceTree = "<group>"; };
+		5EECB794D0B37423994FD26AC58C8AAD /* QMUIToastAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIToastAnimator.m; path = QMUIKit/QMUIComponents/ToastView/QMUIToastAnimator.m; sourceTree = "<group>"; };
+		6121E1B927EDEEF6AA96D1AFB06DA9EA /* UITextView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITextView+QMUI.h"; sourceTree = "<group>"; };
+		66DD25898BD89BEAFAD2B87116BE6AF9 /* QMUIKeyboardManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIKeyboardManager.m; path = QMUIKit/QMUIComponents/QMUIKeyboardManager.m; sourceTree = "<group>"; };
+		696A1608D875062236910ABF1B1A8110 /* QMUINavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUINavigationController.m; path = QMUIKit/QMUIMainFrame/QMUINavigationController.m; sourceTree = "<group>"; };
+		697E052AECC0F58A99CFFD7D970C69CE /* QMUISlider.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUISlider.h; path = QMUIKit/QMUIComponents/QMUISlider.h; sourceTree = "<group>"; };
+		6981B54808C9268C6AEF0396866EF8DE /* NSObject+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSObject+QMUI.m"; sourceTree = "<group>"; };
+		698AEF06CED6125E06D9063071AD3BB2 /* QMUIAssetsGroup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIAssetsGroup.m; path = QMUIKit/QMUIComponents/AssetLibrary/QMUIAssetsGroup.m; sourceTree = "<group>"; };
+		6D4EA73CEEA56447A0CD46484DF4CD46 /* UIImageView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIImageView+QMUI.h"; sourceTree = "<group>"; };
+		6F7F2A0A5BEBA7CD6E78F2833E2ADEE4 /* QMUIStaticTableViewCellData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIStaticTableViewCellData.h; path = QMUIKit/QMUIComponents/StaticTableView/QMUIStaticTableViewCellData.h; sourceTree = "<group>"; };
+		7088D2F10486EC7E1A5163E0CDF565A7 /* CALayer+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+QMUI.h"; path = "QMUIKit/UIKitExtensions/CALayer+QMUI.h"; sourceTree = "<group>"; };
+		70F70EC75DC6C51804288B0117791C57 /* QMUIStaticTableViewCellData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIStaticTableViewCellData.m; path = QMUIKit/QMUIComponents/StaticTableView/QMUIStaticTableViewCellData.m; sourceTree = "<group>"; };
+		719D81B7F0932CAA836E2A4CDFF78442 /* UIGestureRecognizer+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIGestureRecognizer+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIGestureRecognizer+QMUI.m"; sourceTree = "<group>"; };
+		72CAF2454CA4350DDA3FBE8DFA70BEC7 /* QMUIButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIButton.m; path = QMUIKit/QMUIComponents/QMUIButton.m; sourceTree = "<group>"; };
+		7411AB0BA287388347002BC2CA7C4E2F /* QMUIToastAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIToastAnimator.h; path = QMUIKit/QMUIComponents/ToastView/QMUIToastAnimator.h; sourceTree = "<group>"; };
+		748078FF91BE0206655F28BDB4A3C69C /* QMUICore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUICore.h; path = QMUIKit/QMUICore/QMUICore.h; sourceTree = "<group>"; };
+		76C02E207B615C222B8CCA03C12C88CE /* QMUIZoomImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIZoomImageView.h; path = QMUIKit/QMUIComponents/QMUIZoomImageView.h; sourceTree = "<group>"; };
+		7B0130D3D84041286033F9A1D9985918 /* QMUIVisualEffectView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIVisualEffectView.m; path = QMUIKit/QMUIComponents/QMUIVisualEffectView.m; sourceTree = "<group>"; };
+		7D5A463BBAD0687AA390F233D10FF230 /* QMUIAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIAlertController.m; path = QMUIKit/QMUIComponents/QMUIAlertController.m; sourceTree = "<group>"; };
+		7EF8CB894BD6E42D4B4753A18CF692B0 /* QMUIFloatLayoutView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIFloatLayoutView.m; path = QMUIKit/QMUIComponents/QMUIFloatLayoutView.m; sourceTree = "<group>"; };
+		7F3A04733B792772FD509D2E30B3C483 /* UITableView+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITableView+QMUI.h"; sourceTree = "<group>"; };
+		80985E84A38EF3DE11C18B589788A8E5 /* QMUIImagePickerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePickerViewController.h; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerViewController.h; sourceTree = "<group>"; };
+		80AC5E25F3ABC09F1BF3419172D7A7BC /* QMUIAlbumViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIAlbumViewController.m; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIAlbumViewController.m; sourceTree = "<group>"; };
+		81E03168F1030C8C82DA640C75564DED /* QMUITextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITextView.h; path = QMUIKit/QMUIComponents/QMUITextView.h; sourceTree = "<group>"; };
+		81F9FAF06A757B7BF4C878AE28313F47 /* QMUITextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITextField.h; path = QMUIKit/QMUIComponents/QMUITextField.h; sourceTree = "<group>"; };
+		82B5FAAB4C58408EEE911D28C0062E0F /* NSAttributedString+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSAttributedString+QMUI.m"; sourceTree = "<group>"; };
+		83DA695B440B30175544B6B4D1F29984 /* QMUIImagePickerPreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePickerPreviewViewController.m; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerPreviewViewController.m; sourceTree = "<group>"; };
+		858D338437030BA5529CF2ADADCCDC04 /* QMUIEmotionView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIEmotionView.h; path = QMUIKit/QMUIComponents/QMUIEmotionView.h; sourceTree = "<group>"; };
+		85A51DED6E8078F9C41B96CFA1B92D87 /* QMUITabBarViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITabBarViewController.h; path = QMUIKit/QMUIMainFrame/QMUITabBarViewController.h; sourceTree = "<group>"; };
+		86B4247F7A95B7E0EF1CA2F6A5B7C4DB /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FDFullscreenPopGesture.h"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		880BDC5EADCAD568354966AD69EC33CF /* QMUICommonViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUICommonViewController.h; path = QMUIKit/QMUIMainFrame/QMUICommonViewController.h; sourceTree = "<group>"; };
+		8821F5BBCC396358004A98CD27EA9324 /* QMUICollectionViewPagingLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUICollectionViewPagingLayout.h; path = QMUIKit/QMUIComponents/QMUICollectionViewPagingLayout.h; sourceTree = "<group>"; };
+		8A75640CCD9587CA4452E1C3DDB8A988 /* QMUITableViewProtocols.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITableViewProtocols.h; path = QMUIKit/QMUIComponents/QMUITableViewProtocols.h; sourceTree = "<group>"; };
+		8B959CDEF2E980E0337965B22F4B8276 /* NSString+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSString+QMUI.m"; sourceTree = "<group>"; };
+		8BD06BA0F8CCA3D54BB6B340DF8EB429 /* UINavigationController+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+QMUI.m"; path = "QMUIKit/UIKitExtensions/UINavigationController+QMUI.m"; sourceTree = "<group>"; };
+		8C99509E4B388697B58ED5F593592DE8 /* QMUIAsset.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIAsset.m; path = QMUIKit/QMUIComponents/AssetLibrary/QMUIAsset.m; sourceTree = "<group>"; };
+		8E043A1CD4BF45E3BFB8AB1564316F38 /* QMUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMUIKit-umbrella.h"; sourceTree = "<group>"; };
+		8F1EA8483C675B8D9EAFA2E125F0633F /* QMUIPopupMenuView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIPopupMenuView.m; path = QMUIKit/QMUIComponents/QMUIPopupMenuView.m; sourceTree = "<group>"; };
+		93292885F8FDE0E1C3475B78255C1FC6 /* QMUIImagePickerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePickerViewController.m; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerViewController.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93D6C8A6DEF0A72C1B45D8979EA8F49A /* QMUIPieProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIPieProgressView.h; path = QMUIKit/QMUIComponents/QMUIPieProgressView.h; sourceTree = "<group>"; };
+		9604F4C10D79F6A580A46DDFFB153E6F /* QMUITestView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITestView.m; path = QMUIKit/QMUIComponents/QMUITestView.m; sourceTree = "<group>"; };
+		965A0B64F9D95650A44E6181A825F777 /* QMUICommonDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUICommonDefines.h; path = QMUIKit/QMUICore/QMUICommonDefines.h; sourceTree = "<group>"; };
+		98A17796838ADEEFBCBE76B4B7E8E8A0 /* QMUISegmentedControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUISegmentedControl.h; path = QMUIKit/QMUIComponents/QMUISegmentedControl.h; sourceTree = "<group>"; };
+		9A48352E252225CAAD0ED82BB9FF003A /* QMUISlider.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUISlider.m; path = QMUIKit/QMUIComponents/QMUISlider.m; sourceTree = "<group>"; };
+		9C184AD8CB03C327C2D677FE2456869A /* UIViewController+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIViewController+QMUI.m"; sourceTree = "<group>"; };
+		9CD854C6EE51E204FB92FF8F5B60AA9C /* UILabel+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+QMUI.h"; path = "QMUIKit/UIKitExtensions/UILabel+QMUI.h"; sourceTree = "<group>"; };
+		9ECAF62DBB3A761D1C7B8A074C604B05 /* NSParagraphStyle+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSParagraphStyle+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSParagraphStyle+QMUI.h"; sourceTree = "<group>"; };
+		9EEBB57C17CFC8A5D95774DB85018AE7 /* QMUISegmentedControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUISegmentedControl.m; path = QMUIKit/QMUIComponents/QMUISegmentedControl.m; sourceTree = "<group>"; };
+		9F07A9E43DBB22EACFB062BD4AF6272A /* QMUIConfiguration.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIConfiguration.m; path = QMUIKit/QMUICore/QMUIConfiguration.m; sourceTree = "<group>"; };
+		9F152F7DFB4F1B1B9251C6A4C2E0D0FD /* QMUIPopupContainerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIPopupContainerView.h; path = QMUIKit/QMUIComponents/QMUIPopupContainerView.h; sourceTree = "<group>"; };
+		9FD751252542A3CA99BA8EFFEEE16796 /* FDFullscreenPopGesture-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FDFullscreenPopGesture-dummy.m"; sourceTree = "<group>"; };
+		A259F79D18FD3C8F9F24086A269B7116 /* QMUIImagePreviewViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIImagePreviewViewController.h; path = QMUIKit/QMUIComponents/QMUIImagePreviewViewController.h; sourceTree = "<group>"; };
+		A3B8B6C4C84873AF297AA2AD23B0488E /* NSString+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSString+QMUI.h"; sourceTree = "<group>"; };
+		A4502954C1B3F49533A3C0AFDE6D97A4 /* QMUIEmotionInputManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIEmotionInputManager.h; path = QMUIKit/QMUIComponents/QMUIEmotionInputManager.h; sourceTree = "<group>"; };
+		A61C5B9C36DA1D6B665549666C777F10 /* QMUIKeyboardManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIKeyboardManager.h; path = QMUIKit/QMUIComponents/QMUIKeyboardManager.h; sourceTree = "<group>"; };
+		A959F20CD79D536A5B2E637B039463C3 /* QMUIMarqueeLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIMarqueeLabel.h; path = QMUIKit/QMUIComponents/QMUIMarqueeLabel.h; sourceTree = "<group>"; };
+		A9F97BE8D5B851B9DE64E69A222BAD7C /* QMUIGridView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIGridView.m; path = QMUIKit/QMUIComponents/QMUIGridView.m; sourceTree = "<group>"; };
+		AB5CDBB6C5256A4FE47BF65572B234C6 /* UISearchBar+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UISearchBar+QMUI.h"; path = "QMUIKit/UIKitExtensions/UISearchBar+QMUI.h"; sourceTree = "<group>"; };
+		AC7F18D1C7D556B4D68E15E79751F441 /* QMUIHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIHelper.h; path = QMUIKit/QMUICore/QMUIHelper.h; sourceTree = "<group>"; };
+		AD88F46BDD5D1A751865CB25FC4F1669 /* QMUIImagePreviewViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePreviewViewController.m; path = QMUIKit/QMUIComponents/QMUIImagePreviewViewController.m; sourceTree = "<group>"; };
+		ADE429021E39A125EE25EE67903003F9 /* UIButton+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIButton+QMUI.h"; sourceTree = "<group>"; };
+		AF365CC3269D6C1C3D65321912973D8A /* QMUISearchController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUISearchController.h; path = QMUIKit/QMUIComponents/QMUISearchController.h; sourceTree = "<group>"; };
+		B06661D10885B15C888CC418C98BDF05 /* Pods-TestQmui.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestQmui.modulemap"; sourceTree = "<group>"; };
+		B2A7BB8BB66E185718B40D8878B95BAF /* QMUIDialogViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIDialogViewController.m; path = QMUIKit/QMUIComponents/QMUIDialogViewController.m; sourceTree = "<group>"; };
+		B3686334DD57248FC17F42B9AF46EDB7 /* QMUIStaticTableViewCellDataSource.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIStaticTableViewCellDataSource.h; path = QMUIKit/QMUIComponents/StaticTableView/QMUIStaticTableViewCellDataSource.h; sourceTree = "<group>"; };
+		B3892C1536FB5ED2FC23A889101827E7 /* QMUICommonTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUICommonTableViewController.h; path = QMUIKit/QMUIMainFrame/QMUICommonTableViewController.h; sourceTree = "<group>"; };
+		B44D809FE699108A7DBC81419E67B1C8 /* UIBezierPath+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIBezierPath+QMUI.m"; sourceTree = "<group>"; };
+		B767DF74D156661E00FEA90858A1D7B5 /* QMUICommonViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUICommonViewController.m; path = QMUIKit/QMUIMainFrame/QMUICommonViewController.m; sourceTree = "<group>"; };
+		B864939B7AF438CF2080C9B550B8BFD9 /* QMUITableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITableViewCell.h; path = QMUIKit/QMUIComponents/QMUITableViewCell.h; sourceTree = "<group>"; };
+		B8817418B5F4455C3685D2FF651D77FD /* QMUIMoreOperationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIMoreOperationController.m; path = QMUIKit/QMUIComponents/QMUIMoreOperationController.m; sourceTree = "<group>"; };
+		B93E0051C46D65871FBA09006991CA41 /* UIViewController+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIViewController+QMUI.h"; sourceTree = "<group>"; };
+		B9ED33412CC71CA346777EA79AAA37FE /* FDFullscreenPopGesture-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-umbrella.h"; sourceTree = "<group>"; };
+		BAFA33807672829667705E501E6A4EB7 /* NSArray+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+QMUI.h"; path = "QMUIKit/UIKitExtensions/NSArray+QMUI.h"; sourceTree = "<group>"; };
+		BBFBA2FF699E8ED7CBAE95A0B1101139 /* QMUIZoomImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIZoomImageView.m; path = QMUIKit/QMUIComponents/QMUIZoomImageView.m; sourceTree = "<group>"; };
+		BCCCB37E29FE0F3C8E1C96C5E18C67F8 /* UIButton+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIButton+QMUI.m"; sourceTree = "<group>"; };
+		BD5FBFFEB223BCF20DD5B2DAB4FECED2 /* QMUIConfigurationMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIConfigurationMacros.h; path = QMUIKit/QMUICore/QMUIConfigurationMacros.h; sourceTree = "<group>"; };
+		C04BEA20A0F6A2702C1D661BD3AB02DA /* QMUITableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITableViewCell.m; path = QMUIKit/QMUIComponents/QMUITableViewCell.m; sourceTree = "<group>"; };
+		C1458A85CBE895E04253AF62600987A7 /* QMUICommonTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUICommonTableViewController.m; path = QMUIKit/QMUIMainFrame/QMUICommonTableViewController.m; sourceTree = "<group>"; };
+		C16EB8B3B6BE63E843087C45AC6B5612 /* Pods_TestQmui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestQmui.framework; path = "Pods-TestQmui.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C203393A2CC27E68A5FC9C6035220903 /* Pods-TestQmui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestQmui.release.xcconfig"; sourceTree = "<group>"; };
+		C3244897F8F0D4F56F534AF24F2FB246 /* QMUIFloatLayoutView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIFloatLayoutView.h; path = QMUIKit/QMUIComponents/QMUIFloatLayoutView.h; sourceTree = "<group>"; };
+		C36A8D5292C656C33F947EC2E20308D6 /* QMUIToastView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIToastView.h; path = QMUIKit/QMUIComponents/ToastView/QMUIToastView.h; sourceTree = "<group>"; };
+		C3FFC9019596A9CCC525976F5AE1E9BE /* QMUIModalPresentationViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIModalPresentationViewController.m; path = QMUIKit/QMUIComponents/QMUIModalPresentationViewController.m; sourceTree = "<group>"; };
+		C5F62986EFB9D07954336AEC6ACFE46E /* QMUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QMUIKit-prefix.pch"; sourceTree = "<group>"; };
+		C76052AA691403073CA77D26042ACA7D /* QMUICellHeightCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUICellHeightCache.m; path = QMUIKit/QMUIComponents/QMUICellHeightCache.m; sourceTree = "<group>"; };
+		C87514A555214045E7AF0B5F5CCF3688 /* UIFont+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIFont+QMUI.m"; sourceTree = "<group>"; };
+		CB04068A93602A7D42495CD46B6A5816 /* QMUIPieProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIPieProgressView.m; path = QMUIKit/QMUIComponents/QMUIPieProgressView.m; sourceTree = "<group>"; };
+		CCC43E3E34929A8CAB20ED9A8CC082CE /* UITabBarItem+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITabBarItem+QMUI.h"; path = "QMUIKit/UIKitExtensions/UITabBarItem+QMUI.h"; sourceTree = "<group>"; };
+		CE499F56A21047D2262BC7E38579CFEB /* QMUIToastContentView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIToastContentView.h; path = QMUIKit/QMUIComponents/ToastView/QMUIToastContentView.h; sourceTree = "<group>"; };
+		CE5EB92513886578DC5CC7B9E549631D /* QMUITableView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUITableView.h; path = QMUIKit/QMUIComponents/QMUITableView.h; sourceTree = "<group>"; };
+		CE9790E3395B0797DCFFBDA770EC8DCB /* QMUIEmptyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIEmptyView.h; path = QMUIKit/QMUIComponents/QMUIEmptyView.h; sourceTree = "<group>"; };
+		CF852D45F9166553E8F5C8E64C137826 /* QMUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QMUIKit.modulemap; sourceTree = "<group>"; };
+		CF91002485086860EB321B97E227F833 /* QMUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIKit.h; path = QMUIKit/QMUIKit.h; sourceTree = "<group>"; };
+		D1B39F5BE062B7E6EC2DA09E9E1F8845 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
+		D26A2D95A450BD2B34AEADB235EB9B4F /* UILabel+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+QMUI.m"; path = "QMUIKit/UIKitExtensions/UILabel+QMUI.m"; sourceTree = "<group>"; };
+		D4149AF4671E6D1837D33F08DEA69058 /* QMUITabBarViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITabBarViewController.m; path = QMUIKit/QMUIMainFrame/QMUITabBarViewController.m; sourceTree = "<group>"; };
+		D467541269B7C1F9DD1C28B53E3598C4 /* UITabBar+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITabBar+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITabBar+QMUI.m"; sourceTree = "<group>"; };
+		D78B3E2FB7F518B9D136EE62744024EE /* FDFullscreenPopGesture-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FDFullscreenPopGesture-prefix.pch"; sourceTree = "<group>"; };
+		D804251F5C8B5FB7F58B0598DEA7FFE6 /* QMUIImagePickerCollectionViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePickerCollectionViewCell.m; path = QMUIKit/QMUIComponents/ImagePickerLibrary/QMUIImagePickerCollectionViewCell.m; sourceTree = "<group>"; };
+		DA961CFAA8987A347680C231C42E4CA4 /* UITableView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITableView+QMUI.m"; sourceTree = "<group>"; };
+		DAAFE9EF15CDF74F955B267D27D202D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		DAB6D95A455403E1D6C575475E0F8101 /* QMUIAssetsManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIAssetsManager.h; path = QMUIKit/QMUIComponents/AssetLibrary/QMUIAssetsManager.h; sourceTree = "<group>"; };
+		DB858BC8FE0AEB3898D65F39F8A56775 /* Pods-TestQmui-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestQmui-dummy.m"; sourceTree = "<group>"; };
+		DBC9E6BCDAA867079B4C58B09DAC938E /* NSParagraphStyle+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSParagraphStyle+QMUI.m"; path = "QMUIKit/UIKitExtensions/NSParagraphStyle+QMUI.m"; sourceTree = "<group>"; };
+		DE43C33DDB66B229D7D9B731B2266EEE /* QMUISearchBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUISearchBar.h; path = QMUIKit/QMUIComponents/QMUISearchBar.h; sourceTree = "<group>"; };
+		E007E68C7B7AFA91234D76BD59FD4A40 /* QMUIToastView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIToastView.m; path = QMUIKit/QMUIComponents/ToastView/QMUIToastView.m; sourceTree = "<group>"; };
+		E0FB7075F61B8537FA8E4DD478F6B771 /* Pods-TestQmui-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestQmui-umbrella.h"; sourceTree = "<group>"; };
+		E23D462FA8AE39267DFDB1D41074D1A7 /* UINavigationController+NavigationBarTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+NavigationBarTransition.h"; path = "QMUIKit/QMUIComponents/NavigationBarTransition/UINavigationController+NavigationBarTransition.h"; sourceTree = "<group>"; };
+		E60D58A7853AF9875F1DCABDBF36E3CE /* QMUILabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUILabel.m; path = QMUIKit/QMUIComponents/QMUILabel.m; sourceTree = "<group>"; };
+		E75C6A9971A1EA36DAC8CAEEA71A9577 /* QMUIGridView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUIGridView.h; path = QMUIKit/QMUIComponents/QMUIGridView.h; sourceTree = "<group>"; };
+		E7CAE11C7B48FCC4FB7EE9411BA658B7 /* QMUIMarqueeLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIMarqueeLabel.m; path = QMUIKit/QMUIComponents/QMUIMarqueeLabel.m; sourceTree = "<group>"; };
+		E842BCA44BFADB97CD8DCFF00ABA92F2 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FDFullscreenPopGesture.m"; path = "FDFullscreenPopGesture/UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
+		E95C975064A7BA327753E8523A9007D5 /* UIControl+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIControl+QMUI.h"; sourceTree = "<group>"; };
+		EB66BF1D1CA46A887A11D6DD4C32B846 /* QMUIEmotionView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIEmotionView.m; path = QMUIKit/QMUIComponents/QMUIEmotionView.m; sourceTree = "<group>"; };
+		EC49E9EF8838CBBD7B7C10471D1F2395 /* Pods-TestQmui-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestQmui-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ED031614E1EB4329664DCDE1B0B09FAD /* UITextView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UITextView+QMUI.m"; sourceTree = "<group>"; };
+		ED44EA412B24561318E7348A439BA9AD /* QMUICellHeightCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUICellHeightCache.h; path = QMUIKit/QMUIComponents/QMUICellHeightCache.h; sourceTree = "<group>"; };
+		EE27AC137FF64BF1752B3284997766EE /* QMUIToastContentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIToastContentView.m; path = QMUIKit/QMUIComponents/ToastView/QMUIToastContentView.m; sourceTree = "<group>"; };
+		F1DF9456A4B3D7EEC398058D833639E6 /* UIScrollView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIScrollView+QMUI.m"; sourceTree = "<group>"; };
+		F5531EF785C92749FADE7DB04CAB84EC /* UIImageView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIImageView+QMUI.m"; sourceTree = "<group>"; };
+		F59962E1D1A5B3EFE7BA0DC71FE71B1E /* CALayer+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+QMUI.m"; path = "QMUIKit/UIKitExtensions/CALayer+QMUI.m"; sourceTree = "<group>"; };
+		F639A41C16108AA8FF8EB6CDB0DF7492 /* UINavigationBar+Transition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationBar+Transition.h"; path = "QMUIKit/QMUIComponents/NavigationBarTransition/UINavigationBar+Transition.h"; sourceTree = "<group>"; };
+		FA999C784AAD8E866C82E735AF1DA312 /* FDFullscreenPopGesture.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FDFullscreenPopGesture.xcconfig; sourceTree = "<group>"; };
+		FBC8F9AE078B9F573ABB0FCADFD41B45 /* QMUIImagePreviewView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUIImagePreviewView.m; path = QMUIKit/QMUIComponents/QMUIImagePreviewView.m; sourceTree = "<group>"; };
+		FBD8ADA05589F72703A70F81D648FC28 /* UIBezierPath+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIBezierPath+QMUI.h"; sourceTree = "<group>"; };
+		FC59AE7E665480D8CE18CEC2A86869CF /* UIColor+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+QMUI.m"; path = "QMUIKit/UIKitExtensions/UIColor+QMUI.m"; sourceTree = "<group>"; };
+		FC60515C74737B8E1608163F55107509 /* Pods-TestQmui-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestQmui-resources.sh"; sourceTree = "<group>"; };
+		FCFBF2EE78820108DE5749B4550770E8 /* UIColor+QMUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+QMUI.h"; path = "QMUIKit/UIKitExtensions/UIColor+QMUI.h"; sourceTree = "<group>"; };
+		FD0A0C0F07F42B4FAB391D63D940CD0A /* QMUITableViewHeaderFooterView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QMUITableViewHeaderFooterView.m; path = QMUIKit/QMUIComponents/QMUITableViewHeaderFooterView.m; sourceTree = "<group>"; };
+		FD0BCF2F345CF1B4E18D33369649013B /* QMUILabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QMUILabel.h; path = QMUIKit/QMUIComponents/QMUILabel.h; sourceTree = "<group>"; };
+		FE988A708C61018681446AB58A59D478 /* UICollectionView+QMUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+QMUI.m"; path = "QMUIKit/UIKitExtensions/UICollectionView+QMUI.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E1293A9FDDCF107AD4429DA7339E1F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E7D73E08D209ECAE5127877C73DEE1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9483ED1604162941DFFF2A4543057AA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA706BBF92EF30CD159D8B005DD3873 /* CoreGraphics.framework in Frameworks */,
+				196BFABACD8A60FEF26B8F82E575AEA4 /* Foundation.framework in Frameworks */,
+				FA9A3BA39DBDEB0A9D559ACD5BB17DDC /* Photos.framework in Frameworks */,
+				EB15ACC528CA4C8E394542F1BBDB5B38 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCDB90035DE40F4A4AF65DF3F2124DF6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7128C7E8B721891E2EE28370AAB1BEEB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00113194D4838AF98093E3AD18CFB56D /* QMUIVisualEffectView */ = {
+			isa = PBXGroup;
+			children = (
+				38EFA41E454A1E4F9D62D47F55147196 /* QMUIVisualEffectView.h */,
+				7B0130D3D84041286033F9A1D9985918 /* QMUIVisualEffectView.m */,
+			);
+			name = QMUIVisualEffectView;
+			sourceTree = "<group>";
+		};
+		01CB24FFD507662F710FBF2FB4351F39 /* QMUIImagePreviewViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A259F79D18FD3C8F9F24086A269B7116 /* QMUIImagePreviewViewController.h */,
+				AD88F46BDD5D1A751865CB25FC4F1669 /* QMUIImagePreviewViewController.m */,
+			);
+			name = QMUIImagePreviewViewController;
+			sourceTree = "<group>";
+		};
+		0835CBA4BAA692D166E03B26583124C9 /* QMUITextField */ = {
+			isa = PBXGroup;
+			children = (
+				81F9FAF06A757B7BF4C878AE28313F47 /* QMUITextField.h */,
+				3863A37BCFC08B5CE87BA64F040F0AB0 /* QMUITextField.m */,
+			);
+			name = QMUITextField;
+			sourceTree = "<group>";
+		};
+		0E8B12F3D50580460810A68A36720291 /* QMUIPieProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				93D6C8A6DEF0A72C1B45D8979EA8F49A /* QMUIPieProgressView.h */,
+				CB04068A93602A7D42495CD46B6A5816 /* QMUIPieProgressView.m */,
+			);
+			name = QMUIPieProgressView;
+			sourceTree = "<group>";
+		};
+		14397DC833662577D5DB251DF892B64A /* FDFullscreenPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				86B4247F7A95B7E0EF1CA2F6A5B7C4DB /* UINavigationController+FDFullscreenPopGesture.h */,
+				E842BCA44BFADB97CD8DCFF00ABA92F2 /* UINavigationController+FDFullscreenPopGesture.m */,
+				197AA5CA5DF04844DFD72546FBAB22AD /* Support Files */,
+			);
+			name = FDFullscreenPopGesture;
+			path = FDFullscreenPopGesture;
+			sourceTree = "<group>";
+		};
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5A7291B6F6D11FB06920ED59B6BF885 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14E9609D43452189B02FF3861A6FD7CF /* QMUILabel */ = {
+			isa = PBXGroup;
+			children = (
+				FD0BCF2F345CF1B4E18D33369649013B /* QMUILabel.h */,
+				E60D58A7853AF9875F1DCABDBF36E3CE /* QMUILabel.m */,
+			);
+			name = QMUILabel;
+			sourceTree = "<group>";
+		};
+		1559886A2AADC01FC6FF81313034EE91 /* QMUITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				B864939B7AF438CF2080C9B550B8BFD9 /* QMUITableViewCell.h */,
+				C04BEA20A0F6A2702C1D661BD3AB02DA /* QMUITableViewCell.m */,
+			);
+			name = QMUITableViewCell;
+			sourceTree = "<group>";
+		};
+		18A79C71F0D3131D951535EDAEFA4862 /* QMUITableViewHeaderFooterView */ = {
+			isa = PBXGroup;
+			children = (
+				0E64B5256FAA9C151607F316F5EA28D6 /* QMUITableViewHeaderFooterView.h */,
+				FD0A0C0F07F42B4FAB391D63D940CD0A /* QMUITableViewHeaderFooterView.m */,
+			);
+			name = QMUITableViewHeaderFooterView;
+			sourceTree = "<group>";
+		};
+		197AA5CA5DF04844DFD72546FBAB22AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A24B876DB0B5748B282044ECC28B9F6 /* FDFullscreenPopGesture.modulemap */,
+				FA999C784AAD8E866C82E735AF1DA312 /* FDFullscreenPopGesture.xcconfig */,
+				9FD751252542A3CA99BA8EFFEEE16796 /* FDFullscreenPopGesture-dummy.m */,
+				D78B3E2FB7F518B9D136EE62744024EE /* FDFullscreenPopGesture-prefix.pch */,
+				B9ED33412CC71CA346777EA79AAA37FE /* FDFullscreenPopGesture-umbrella.h */,
+				4149E103986C6D8F3E59A39E4C35B4DD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FDFullscreenPopGesture";
+			sourceTree = "<group>";
+		};
+		1C4165181D04308F10A2673135357C47 /* QMUIMoreOperationController */ = {
+			isa = PBXGroup;
+			children = (
+				3A2A805DF7BE38F9D7348CC795460495 /* QMUIMoreOperationController.h */,
+				B8817418B5F4455C3685D2FF651D77FD /* QMUIMoreOperationController.m */,
+			);
+			name = QMUIMoreOperationController;
+			sourceTree = "<group>";
+		};
+		26D81B24BB3577CE26EAC1017E12454F /* QMUITestView */ = {
+			isa = PBXGroup;
+			children = (
+				0E40E63FD43930243AE7E637A1215CE9 /* QMUITestView.h */,
+				9604F4C10D79F6A580A46DDFFB153E6F /* QMUITestView.m */,
+			);
+			name = QMUITestView;
+			sourceTree = "<group>";
+		};
+		29A42BDDDAF55B706359D7FEC749E4A9 /* QMUIFloatLayoutView */ = {
+			isa = PBXGroup;
+			children = (
+				C3244897F8F0D4F56F534AF24F2FB246 /* QMUIFloatLayoutView.h */,
+				7EF8CB894BD6E42D4B4753A18CF692B0 /* QMUIFloatLayoutView.m */,
+			);
+			name = QMUIFloatLayoutView;
+			sourceTree = "<group>";
+		};
+		2A40FEB4FACE6CB831646CD029F00AF3 /* QMUIEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				CE9790E3395B0797DCFFBDA770EC8DCB /* QMUIEmptyView.h */,
+				24F3130AF551897D900269249FEB935D /* QMUIEmptyView.m */,
+			);
+			name = QMUIEmptyView;
+			sourceTree = "<group>";
+		};
+		2B5E0747BF9379DE491CDF057D4D135F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0795B512C9CA536E6CB933C887F14819 /* QMUIResources.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2F884D33C2BF90F31AE3F4F3FEEA5642 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD0BB45C9D3249D13A04392F6C2CABEC /* Pods-TestQmui */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		38873F95AB9DA593AEEDDF7BEBCBEF99 /* QMUIDialogViewController */ = {
+			isa = PBXGroup;
+			children = (
+				296F10E83BAC30F1A08BF1BB97072129 /* QMUIDialogViewController.h */,
+				B2A7BB8BB66E185718B40D8878B95BAF /* QMUIDialogViewController.m */,
+			);
+			name = QMUIDialogViewController;
+			sourceTree = "<group>";
+		};
+		417CDD65633C3347DE6CE16E0F190B98 /* QMUICore */ = {
+			isa = PBXGroup;
+			children = (
+				7088D2F10486EC7E1A5163E0CDF565A7 /* CALayer+QMUI.h */,
+				F59962E1D1A5B3EFE7BA0DC71FE71B1E /* CALayer+QMUI.m */,
+				BAFA33807672829667705E501E6A4EB7 /* NSArray+QMUI.h */,
+				44A47CE59DE61A57DACFBDA28A56B197 /* NSArray+QMUI.m */,
+				512142D835A59E0A3174AD5E3F4C66F5 /* NSAttributedString+QMUI.h */,
+				82B5FAAB4C58408EEE911D28C0062E0F /* NSAttributedString+QMUI.m */,
+				4B98A4AB4501B0F8DAF806475D0ABED4 /* NSObject+QMUI.h */,
+				6981B54808C9268C6AEF0396866EF8DE /* NSObject+QMUI.m */,
+				9ECAF62DBB3A761D1C7B8A074C604B05 /* NSParagraphStyle+QMUI.h */,
+				DBC9E6BCDAA867079B4C58B09DAC938E /* NSParagraphStyle+QMUI.m */,
+				A3B8B6C4C84873AF297AA2AD23B0488E /* NSString+QMUI.h */,
+				8B959CDEF2E980E0337965B22F4B8276 /* NSString+QMUI.m */,
+				965A0B64F9D95650A44E6181A825F777 /* QMUICommonDefines.h */,
+				21A3493F03E9585460100603037564D8 /* QMUIConfiguration.h */,
+				9F07A9E43DBB22EACFB062BD4AF6272A /* QMUIConfiguration.m */,
+				BD5FBFFEB223BCF20DD5B2DAB4FECED2 /* QMUIConfigurationMacros.h */,
+				748078FF91BE0206655F28BDB4A3C69C /* QMUICore.h */,
+				AC7F18D1C7D556B4D68E15E79751F441 /* QMUIHelper.h */,
+				22104B53436775BF388C9D9E8ADA93AC /* QMUIHelper.m */,
+				2BC2025B05EA7142FA55186F3FA5E889 /* UIActivityIndicatorView+QMUI.h */,
+				070A2BE6DC6C4A5911F78998DFCF8C0D /* UIActivityIndicatorView+QMUI.m */,
+				FBD8ADA05589F72703A70F81D648FC28 /* UIBezierPath+QMUI.h */,
+				B44D809FE699108A7DBC81419E67B1C8 /* UIBezierPath+QMUI.m */,
+				ADE429021E39A125EE25EE67903003F9 /* UIButton+QMUI.h */,
+				BCCCB37E29FE0F3C8E1C96C5E18C67F8 /* UIButton+QMUI.m */,
+				4B36E3D1F2C22367727453408B32D751 /* UICollectionView+QMUI.h */,
+				FE988A708C61018681446AB58A59D478 /* UICollectionView+QMUI.m */,
+				FCFBF2EE78820108DE5749B4550770E8 /* UIColor+QMUI.h */,
+				FC59AE7E665480D8CE18CEC2A86869CF /* UIColor+QMUI.m */,
+				E95C975064A7BA327753E8523A9007D5 /* UIControl+QMUI.h */,
+				4399C40072BCB3FE8715A51C6E976BA3 /* UIControl+QMUI.m */,
+				4BAECADE7FBBBCCA3B7F12601411E1FB /* UIFont+QMUI.h */,
+				C87514A555214045E7AF0B5F5CCF3688 /* UIFont+QMUI.m */,
+				1D24EBBAB2D5E748515E86514538BCA9 /* UIGestureRecognizer+QMUI.h */,
+				719D81B7F0932CAA836E2A4CDFF78442 /* UIGestureRecognizer+QMUI.m */,
+				0BACBD11DE18E361322B4527720D2E24 /* UIImage+QMUI.h */,
+				3BC0300A21DAEC892C7C4612BB9FF326 /* UIImage+QMUI.m */,
+				6D4EA73CEEA56447A0CD46484DF4CD46 /* UIImageView+QMUI.h */,
+				F5531EF785C92749FADE7DB04CAB84EC /* UIImageView+QMUI.m */,
+				9CD854C6EE51E204FB92FF8F5B60AA9C /* UILabel+QMUI.h */,
+				D26A2D95A450BD2B34AEADB235EB9B4F /* UILabel+QMUI.m */,
+				020231A2BCFD88B717A3DD0CD7A78442 /* UINavigationController+QMUI.h */,
+				8BD06BA0F8CCA3D54BB6B340DF8EB429 /* UINavigationController+QMUI.m */,
+				29A968D57EB93BB77E66C681946D7111 /* UIScrollView+QMUI.h */,
+				F1DF9456A4B3D7EEC398058D833639E6 /* UIScrollView+QMUI.m */,
+				AB5CDBB6C5256A4FE47BF65572B234C6 /* UISearchBar+QMUI.h */,
+				0C94433CA79D4422F31F4A2180C8E5EA /* UISearchBar+QMUI.m */,
+				3E89B22D85FB45BB12D90EAAA612E373 /* UITabBar+QMUI.h */,
+				D467541269B7C1F9DD1C28B53E3598C4 /* UITabBar+QMUI.m */,
+				CCC43E3E34929A8CAB20ED9A8CC082CE /* UITabBarItem+QMUI.h */,
+				5D3828E83632EE826591D77B67AC4AC9 /* UITabBarItem+QMUI.m */,
+				7F3A04733B792772FD509D2E30B3C483 /* UITableView+QMUI.h */,
+				DA961CFAA8987A347680C231C42E4CA4 /* UITableView+QMUI.m */,
+				23C89C2683FEFB5FFF1C1F80AEC3CE23 /* UITextField+QMUI.h */,
+				4B864095755595F8B3D748A41967F112 /* UITextField+QMUI.m */,
+				6121E1B927EDEEF6AA96D1AFB06DA9EA /* UITextView+QMUI.h */,
+				ED031614E1EB4329664DCDE1B0B09FAD /* UITextView+QMUI.m */,
+				12515730DB8543AB412D09C9469923CC /* UIView+QMUI.h */,
+				509E2F3FF5B32AFA713CB5E7B5EAAB79 /* UIView+QMUI.m */,
+				B93E0051C46D65871FBA09006991CA41 /* UIViewController+QMUI.h */,
+				9C184AD8CB03C327C2D677FE2456869A /* UIViewController+QMUI.m */,
+				3136436ADC938EB5B5A5269E83D3640C /* UIWindow+QMUI.h */,
+				42548BAFC4FCD96CBDF8AB91BEA824FE /* UIWindow+QMUI.m */,
+			);
+			name = QMUICore;
+			sourceTree = "<group>";
+		};
+		50D216AE0BB868094B4AC5B2E7095916 /* QMUIAlertController */ = {
+			isa = PBXGroup;
+			children = (
+				0D93E285208C7112B8182E4E12FCF2EF /* QMUIAlertController.h */,
+				7D5A463BBAD0687AA390F233D10FF230 /* QMUIAlertController.m */,
+			);
+			name = QMUIAlertController;
+			sourceTree = "<group>";
+		};
+		560B69D9AAF69B454837F81B3AF5E694 /* QMUIImagePickerLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				5D731ACCB6750C6A85F6054B44CD33D6 /* QMUIAlbumViewController.h */,
+				80AC5E25F3ABC09F1BF3419172D7A7BC /* QMUIAlbumViewController.m */,
+				548C25A306DE7C64CC0F5FF5F39FEE67 /* QMUIImagePickerCollectionViewCell.h */,
+				D804251F5C8B5FB7F58B0598DEA7FFE6 /* QMUIImagePickerCollectionViewCell.m */,
+				4B92E354C7ADE07E2ECB5B228A47C0E8 /* QMUIImagePickerHelper.h */,
+				48C7B52D620259E615E35767E27CF358 /* QMUIImagePickerHelper.m */,
+				4B725BA5174037D23CD90ECE717EFD7E /* QMUIImagePickerPreviewViewController.h */,
+				83DA695B440B30175544B6B4D1F29984 /* QMUIImagePickerPreviewViewController.m */,
+				80985E84A38EF3DE11C18B589788A8E5 /* QMUIImagePickerViewController.h */,
+				93292885F8FDE0E1C3475B78255C1FC6 /* QMUIImagePickerViewController.m */,
+			);
+			name = QMUIImagePickerLibrary;
+			sourceTree = "<group>";
+		};
+		5AA6469FC9AA94CD8BBD049E39ED54DD /* QMUIModalPresentationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1A944AC6ACFCF19B2D72CBAA06990907 /* QMUIModalPresentationViewController.h */,
+				C3FFC9019596A9CCC525976F5AE1E9BE /* QMUIModalPresentationViewController.m */,
+			);
+			name = QMUIModalPresentationViewController;
+			sourceTree = "<group>";
+		};
+		5E8E90BF191714778B20822ECBC3FB4A /* QMUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				CF91002485086860EB321B97E227F833 /* QMUIKit.h */,
+				A8CC599CABA227971B0F267618E604D9 /* QMUIComponents */,
+				417CDD65633C3347DE6CE16E0F190B98 /* QMUICore */,
+				612175001DB339DCF3A7FCE26D4A737E /* QMUIMainFrame */,
+				779C78C02DB5A399E38C6F21A4801059 /* QMUIResources */,
+				B8AEB9727D2DA9199343BC73C854342C /* Support Files */,
+			);
+			name = QMUIKit;
+			path = QMUIKit;
+			sourceTree = "<group>";
+		};
+		5F68A64AB38B42775A407A5B05F349D6 /* QMUINavigationTitleView */ = {
+			isa = PBXGroup;
+			children = (
+				42A644E7CF36F3B612AABD8F6221F0F1 /* QMUINavigationTitleView.h */,
+				0DAC83EAAEB671C733990E2BADFCAF3E /* QMUINavigationTitleView.m */,
+			);
+			name = QMUINavigationTitleView;
+			sourceTree = "<group>";
+		};
+		5F71581D93092A2D8DA4CBC6F9C414DE /* QMUITableViewProtocols */ = {
+			isa = PBXGroup;
+			children = (
+				8A75640CCD9587CA4452E1C3DDB8A988 /* QMUITableViewProtocols.h */,
+			);
+			name = QMUITableViewProtocols;
+			sourceTree = "<group>";
+		};
+		612175001DB339DCF3A7FCE26D4A737E /* QMUIMainFrame */ = {
+			isa = PBXGroup;
+			children = (
+				B3892C1536FB5ED2FC23A889101827E7 /* QMUICommonTableViewController.h */,
+				C1458A85CBE895E04253AF62600987A7 /* QMUICommonTableViewController.m */,
+				880BDC5EADCAD568354966AD69EC33CF /* QMUICommonViewController.h */,
+				B767DF74D156661E00FEA90858A1D7B5 /* QMUICommonViewController.m */,
+				4FB720CBF8440BDD16E5AB506C27328D /* QMUINavigationController.h */,
+				696A1608D875062236910ABF1B1A8110 /* QMUINavigationController.m */,
+				85A51DED6E8078F9C41B96CFA1B92D87 /* QMUITabBarViewController.h */,
+				D4149AF4671E6D1837D33F08DEA69058 /* QMUITabBarViewController.m */,
+			);
+			name = QMUIMainFrame;
+			sourceTree = "<group>";
+		};
+		653D1A6F85E61E3EC994B85815A52E57 /* QMUIAssetLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				373B3D7958B9C83E6F84478F949424EE /* QMUIAsset.h */,
+				8C99509E4B388697B58ED5F593592DE8 /* QMUIAsset.m */,
+				1853CD56AA7B74794EECFEF9F8CE9F34 /* QMUIAssetsGroup.h */,
+				698AEF06CED6125E06D9063071AD3BB2 /* QMUIAssetsGroup.m */,
+				DAB6D95A455403E1D6C575475E0F8101 /* QMUIAssetsManager.h */,
+				5876134FB427925CA9B14AE1050D1815 /* QMUIAssetsManager.m */,
+			);
+			name = QMUIAssetLibrary;
+			sourceTree = "<group>";
+		};
+		653FB0E935BDEC53BC3932C9FD620C43 /* NavigationBarTransition */ = {
+			isa = PBXGroup;
+			children = (
+				F639A41C16108AA8FF8EB6CDB0DF7492 /* UINavigationBar+Transition.h */,
+				533130AE925E153DB98CCAF363E7F92E /* UINavigationBar+Transition.m */,
+				E23D462FA8AE39267DFDB1D41074D1A7 /* UINavigationController+NavigationBarTransition.h */,
+				4601B098B19FF37C1E96867B5A38A4D9 /* UINavigationController+NavigationBarTransition.m */,
+			);
+			name = NavigationBarTransition;
+			sourceTree = "<group>";
+		};
+		7283F0D4EE5FA4BE065EA27045C056A5 /* QMUICellHeightCache */ = {
+			isa = PBXGroup;
+			children = (
+				ED44EA412B24561318E7348A439BA9AD /* QMUICellHeightCache.h */,
+				C76052AA691403073CA77D26042ACA7D /* QMUICellHeightCache.m */,
+			);
+			name = QMUICellHeightCache;
+			sourceTree = "<group>";
+		};
+		73F3F75C9A813BC69D247548D7F954DB /* QMUIEmotionInputManager */ = {
+			isa = PBXGroup;
+			children = (
+				A4502954C1B3F49533A3C0AFDE6D97A4 /* QMUIEmotionInputManager.h */,
+				29BD66E75B499EB2B5376DE9CD021077 /* QMUIEmotionInputManager.m */,
+			);
+			name = QMUIEmotionInputManager;
+			sourceTree = "<group>";
+		};
+		779C78C02DB5A399E38C6F21A4801059 /* QMUIResources */ = {
+			isa = PBXGroup;
+			children = (
+				2B5E0747BF9379DE491CDF057D4D135F /* Resources */,
+			);
+			name = QMUIResources;
+			sourceTree = "<group>";
+		};
+		79D691300124997A9A905CBB963BC600 /* QMUIZoomImageView */ = {
+			isa = PBXGroup;
+			children = (
+				76C02E207B615C222B8CCA03C12C88CE /* QMUIZoomImageView.h */,
+				BBFBA2FF699E8ED7CBAE95A0B1101139 /* QMUIZoomImageView.m */,
+			);
+			name = QMUIZoomImageView;
+			sourceTree = "<group>";
+		};
+		7C5F92FB96AC9CCD384929A258F7B13F /* QMUISearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				DE43C33DDB66B229D7D9B731B2266EEE /* QMUISearchBar.h */,
+				21C8086A21AF556F0C7E4E06890F9CDD /* QMUISearchBar.m */,
+			);
+			name = QMUISearchBar;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				91FF2E5E4CA056F24EB6CDCC3927B2E0 /* Pods */,
+				E1B42BFD82CCE0197C5BFBC7FED6F16A /* Products */,
+				2F884D33C2BF90F31AE3F4F3FEEA5642 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		861906DDBC9133B5B964FE60D76EA122 /* QMUITableView */ = {
+			isa = PBXGroup;
+			children = (
+				CE5EB92513886578DC5CC7B9E549631D /* QMUITableView.h */,
+				0B1A6C70E2C7ACF28CD24C39F3FC0F2C /* QMUITableView.m */,
+			);
+			name = QMUITableView;
+			sourceTree = "<group>";
+		};
+		8ACF9E5A80D6339F9FF4A99D3F1CF862 /* QMUIButton */ = {
+			isa = PBXGroup;
+			children = (
+				326591CC592E0A300699856BF46D88E9 /* QMUIButton.h */,
+				72CAF2454CA4350DDA3FBE8DFA70BEC7 /* QMUIButton.m */,
+			);
+			name = QMUIButton;
+			sourceTree = "<group>";
+		};
+		8AF77EAC867E5D1838FBE2DFBE82EE0C /* QMUIEmotionView */ = {
+			isa = PBXGroup;
+			children = (
+				858D338437030BA5529CF2ADADCCDC04 /* QMUIEmotionView.h */,
+				EB66BF1D1CA46A887A11D6DD4C32B846 /* QMUIEmotionView.m */,
+			);
+			name = QMUIEmotionView;
+			sourceTree = "<group>";
+		};
+		9105BC817678E86C99E44F4FCB325338 /* QMUIToastView */ = {
+			isa = PBXGroup;
+			children = (
+				7411AB0BA287388347002BC2CA7C4E2F /* QMUIToastAnimator.h */,
+				5EECB794D0B37423994FD26AC58C8AAD /* QMUIToastAnimator.m */,
+				0AB8901D0B671002B0074C41446E5F50 /* QMUIToastBackgroundView.h */,
+				232AB851BF3EAB3E31FD9DB927A7C8E5 /* QMUIToastBackgroundView.m */,
+				CE499F56A21047D2262BC7E38579CFEB /* QMUIToastContentView.h */,
+				EE27AC137FF64BF1752B3284997766EE /* QMUIToastContentView.m */,
+				C36A8D5292C656C33F947EC2E20308D6 /* QMUIToastView.h */,
+				E007E68C7B7AFA91234D76BD59FD4A40 /* QMUIToastView.m */,
+			);
+			name = QMUIToastView;
+			sourceTree = "<group>";
+		};
+		91FF2E5E4CA056F24EB6CDCC3927B2E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				14397DC833662577D5DB251DF892B64A /* FDFullscreenPopGesture */,
+				5E8E90BF191714778B20822ECBC3FB4A /* QMUIKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		931BD62FDE2D054C38239C58267E7BB7 /* QMUISearchController */ = {
+			isa = PBXGroup;
+			children = (
+				AF365CC3269D6C1C3D65321912973D8A /* QMUISearchController.h */,
+				202079CC0E6385946F65BA7051F14DBE /* QMUISearchController.m */,
+			);
+			name = QMUISearchController;
+			sourceTree = "<group>";
+		};
+		A230627A8398AAB640F2FCD9601C0506 /* QMUIPopupContainerView */ = {
+			isa = PBXGroup;
+			children = (
+				9F152F7DFB4F1B1B9251C6A4C2E0D0FD /* QMUIPopupContainerView.h */,
+				291972DB0792E18E283BCF193893B3ED /* QMUIPopupContainerView.m */,
+			);
+			name = QMUIPopupContainerView;
+			sourceTree = "<group>";
+		};
+		A5A7291B6F6D11FB06920ED59B6BF885 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3CCEF912D7CC66D2FBCBCFB81C16B744 /* CoreGraphics.framework */,
+				3D04169F1BDD9637FAAEA45355361AB7 /* Foundation.framework */,
+				D1B39F5BE062B7E6EC2DA09E9E1F8845 /* Photos.framework */,
+				DAAFE9EF15CDF74F955B267D27D202D2 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A6E25440BFBA4A3A059D3C4B11B3A7B0 /* QMUISegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				98A17796838ADEEFBCBE76B4B7E8E8A0 /* QMUISegmentedControl.h */,
+				9EEBB57C17CFC8A5D95774DB85018AE7 /* QMUISegmentedControl.m */,
+			);
+			name = QMUISegmentedControl;
+			sourceTree = "<group>";
+		};
+		A8CC599CABA227971B0F267618E604D9 /* QMUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				653FB0E935BDEC53BC3932C9FD620C43 /* NavigationBarTransition */,
+				50D216AE0BB868094B4AC5B2E7095916 /* QMUIAlertController */,
+				653D1A6F85E61E3EC994B85815A52E57 /* QMUIAssetLibrary */,
+				8ACF9E5A80D6339F9FF4A99D3F1CF862 /* QMUIButton */,
+				7283F0D4EE5FA4BE065EA27045C056A5 /* QMUICellHeightCache */,
+				D1139709031B4D9C37C3F01F1BED1DA8 /* QMUICollectionViewPagingLayout */,
+				38873F95AB9DA593AEEDDF7BEBCBEF99 /* QMUIDialogViewController */,
+				73F3F75C9A813BC69D247548D7F954DB /* QMUIEmotionInputManager */,
+				8AF77EAC867E5D1838FBE2DFBE82EE0C /* QMUIEmotionView */,
+				2A40FEB4FACE6CB831646CD029F00AF3 /* QMUIEmptyView */,
+				29A42BDDDAF55B706359D7FEC749E4A9 /* QMUIFloatLayoutView */,
+				CA4639B1C2BF9101B5207D291D352CB9 /* QMUIGridView */,
+				560B69D9AAF69B454837F81B3AF5E694 /* QMUIImagePickerLibrary */,
+				BFB44C6A4E198C5E2BF05BC989484016 /* QMUIImagePreviewView */,
+				01CB24FFD507662F710FBF2FB4351F39 /* QMUIImagePreviewViewController */,
+				B98EA980FAABE9A50C37C300231E479D /* QMUIKeyboardManager */,
+				14E9609D43452189B02FF3861A6FD7CF /* QMUILabel */,
+				BFDE48C58A725CE9E47FE3C01A75685B /* QMUIMarqueeLabel */,
+				5AA6469FC9AA94CD8BBD049E39ED54DD /* QMUIModalPresentationViewController */,
+				1C4165181D04308F10A2673135357C47 /* QMUIMoreOperationController */,
+				5F68A64AB38B42775A407A5B05F349D6 /* QMUINavigationTitleView */,
+				D28CB4AF169AC1E7924061E98D578072 /* QMUIOrderedDictionary */,
+				0E8B12F3D50580460810A68A36720291 /* QMUIPieProgressView */,
+				A230627A8398AAB640F2FCD9601C0506 /* QMUIPopupContainerView */,
+				C4C0A72A81B5947C41B24A63BD0212A0 /* QMUIPopupMenuView */,
+				7C5F92FB96AC9CCD384929A258F7B13F /* QMUISearchBar */,
+				931BD62FDE2D054C38239C58267E7BB7 /* QMUISearchController */,
+				A6E25440BFBA4A3A059D3C4B11B3A7B0 /* QMUISegmentedControl */,
+				B84FEA6B5562A50AACF6ADBE11389C67 /* QMUISlider */,
+				DAAB3FFD140B85E374E975CB7A35C09A /* QMUIStaticTableView */,
+				861906DDBC9133B5B964FE60D76EA122 /* QMUITableView */,
+				1559886A2AADC01FC6FF81313034EE91 /* QMUITableViewCell */,
+				18A79C71F0D3131D951535EDAEFA4862 /* QMUITableViewHeaderFooterView */,
+				5F71581D93092A2D8DA4CBC6F9C414DE /* QMUITableViewProtocols */,
+				26D81B24BB3577CE26EAC1017E12454F /* QMUITestView */,
+				0835CBA4BAA692D166E03B26583124C9 /* QMUITextField */,
+				C5A8A2C0EF2D2E596DCC1066819B4037 /* QMUITextView */,
+				B7CABB98CE8454CD6F4D8FED1855A94B /* QMUITips */,
+				9105BC817678E86C99E44F4FCB325338 /* QMUIToastView */,
+				00113194D4838AF98093E3AD18CFB56D /* QMUIVisualEffectView */,
+				79D691300124997A9A905CBB963BC600 /* QMUIZoomImageView */,
+			);
+			name = QMUIComponents;
+			sourceTree = "<group>";
+		};
+		B7CABB98CE8454CD6F4D8FED1855A94B /* QMUITips */ = {
+			isa = PBXGroup;
+			children = (
+				5A41C5F947FD5F2C4A26F147CF0ED0CD /* QMUITips.h */,
+				406E471B458EC8CED56E42845628022A /* QMUITips.m */,
+			);
+			name = QMUITips;
+			sourceTree = "<group>";
+		};
+		B84FEA6B5562A50AACF6ADBE11389C67 /* QMUISlider */ = {
+			isa = PBXGroup;
+			children = (
+				697E052AECC0F58A99CFFD7D970C69CE /* QMUISlider.h */,
+				9A48352E252225CAAD0ED82BB9FF003A /* QMUISlider.m */,
+			);
+			name = QMUISlider;
+			sourceTree = "<group>";
+		};
+		B8AEB9727D2DA9199343BC73C854342C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				55AD1DF54C76539CC5AFFFC35C1953EF /* Info.plist */,
+				CF852D45F9166553E8F5C8E64C137826 /* QMUIKit.modulemap */,
+				5D1FB3E2A6DCD8EB27631A204FF10335 /* QMUIKit.xcconfig */,
+				135E7918BFC75CAD63A03A34DC6C2916 /* QMUIKit-dummy.m */,
+				C5F62986EFB9D07954336AEC6ACFE46E /* QMUIKit-prefix.pch */,
+				8E043A1CD4BF45E3BFB8AB1564316F38 /* QMUIKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QMUIKit";
+			sourceTree = "<group>";
+		};
+		B98EA980FAABE9A50C37C300231E479D /* QMUIKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				A61C5B9C36DA1D6B665549666C777F10 /* QMUIKeyboardManager.h */,
+				66DD25898BD89BEAFAD2B87116BE6AF9 /* QMUIKeyboardManager.m */,
+			);
+			name = QMUIKeyboardManager;
+			sourceTree = "<group>";
+		};
+		BFB44C6A4E198C5E2BF05BC989484016 /* QMUIImagePreviewView */ = {
+			isa = PBXGroup;
+			children = (
+				41215D67B53F1E38BF0EAC41071FFCD2 /* QMUIImagePreviewView.h */,
+				FBC8F9AE078B9F573ABB0FCADFD41B45 /* QMUIImagePreviewView.m */,
+			);
+			name = QMUIImagePreviewView;
+			sourceTree = "<group>";
+		};
+		BFDE48C58A725CE9E47FE3C01A75685B /* QMUIMarqueeLabel */ = {
+			isa = PBXGroup;
+			children = (
+				A959F20CD79D536A5B2E637B039463C3 /* QMUIMarqueeLabel.h */,
+				E7CAE11C7B48FCC4FB7EE9411BA658B7 /* QMUIMarqueeLabel.m */,
+			);
+			name = QMUIMarqueeLabel;
+			sourceTree = "<group>";
+		};
+		C4C0A72A81B5947C41B24A63BD0212A0 /* QMUIPopupMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				4507F48C7D3AC33B6957226E50B3B1F0 /* QMUIPopupMenuView.h */,
+				8F1EA8483C675B8D9EAFA2E125F0633F /* QMUIPopupMenuView.m */,
+			);
+			name = QMUIPopupMenuView;
+			sourceTree = "<group>";
+		};
+		C5A8A2C0EF2D2E596DCC1066819B4037 /* QMUITextView */ = {
+			isa = PBXGroup;
+			children = (
+				81E03168F1030C8C82DA640C75564DED /* QMUITextView.h */,
+				5A6DA607CB780C227AC0AB55CCAD15A4 /* QMUITextView.m */,
+			);
+			name = QMUITextView;
+			sourceTree = "<group>";
+		};
+		CA4639B1C2BF9101B5207D291D352CB9 /* QMUIGridView */ = {
+			isa = PBXGroup;
+			children = (
+				E75C6A9971A1EA36DAC8CAEEA71A9577 /* QMUIGridView.h */,
+				A9F97BE8D5B851B9DE64E69A222BAD7C /* QMUIGridView.m */,
+			);
+			name = QMUIGridView;
+			sourceTree = "<group>";
+		};
+		CD0BB45C9D3249D13A04392F6C2CABEC /* Pods-TestQmui */ = {
+			isa = PBXGroup;
+			children = (
+				5C151DB8847174145EED62C19CF303B3 /* Info.plist */,
+				B06661D10885B15C888CC418C98BDF05 /* Pods-TestQmui.modulemap */,
+				EC49E9EF8838CBBD7B7C10471D1F2395 /* Pods-TestQmui-acknowledgements.markdown */,
+				4890A1E5A25C3CF5B97F8B83FA64C1C1 /* Pods-TestQmui-acknowledgements.plist */,
+				DB858BC8FE0AEB3898D65F39F8A56775 /* Pods-TestQmui-dummy.m */,
+				364C589F1FEA2A6F71E0B719115F651E /* Pods-TestQmui-frameworks.sh */,
+				FC60515C74737B8E1608163F55107509 /* Pods-TestQmui-resources.sh */,
+				E0FB7075F61B8537FA8E4DD478F6B771 /* Pods-TestQmui-umbrella.h */,
+				22CE7B2D1BC07E30719EE659B2F6B924 /* Pods-TestQmui.debug.xcconfig */,
+				C203393A2CC27E68A5FC9C6035220903 /* Pods-TestQmui.release.xcconfig */,
+			);
+			name = "Pods-TestQmui";
+			path = "Target Support Files/Pods-TestQmui";
+			sourceTree = "<group>";
+		};
+		D1139709031B4D9C37C3F01F1BED1DA8 /* QMUICollectionViewPagingLayout */ = {
+			isa = PBXGroup;
+			children = (
+				8821F5BBCC396358004A98CD27EA9324 /* QMUICollectionViewPagingLayout.h */,
+				5DCE1FA5236A74FD95703D8A8EF06EC4 /* QMUICollectionViewPagingLayout.m */,
+			);
+			name = QMUICollectionViewPagingLayout;
+			sourceTree = "<group>";
+		};
+		D28CB4AF169AC1E7924061E98D578072 /* QMUIOrderedDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				1A05B828FFFDB72B287E315C07234202 /* QMUIOrderedDictionary.h */,
+				49CE6DEC603035370584BD94F3E9FC67 /* QMUIOrderedDictionary.m */,
+			);
+			name = QMUIOrderedDictionary;
+			sourceTree = "<group>";
+		};
+		DAAB3FFD140B85E374E975CB7A35C09A /* QMUIStaticTableView */ = {
+			isa = PBXGroup;
+			children = (
+				6F7F2A0A5BEBA7CD6E78F2833E2ADEE4 /* QMUIStaticTableViewCellData.h */,
+				70F70EC75DC6C51804288B0117791C57 /* QMUIStaticTableViewCellData.m */,
+				B3686334DD57248FC17F42B9AF46EDB7 /* QMUIStaticTableViewCellDataSource.h */,
+				1227A10877CD3C0097E0A7F4563E4EA0 /* QMUIStaticTableViewCellDataSource.m */,
+				048936568318E98A02D9A0736E09CBD8 /* UITableView+QMUIStaticCell.h */,
+				5EE1CDEF9B3256B60A5A4F2F0E02DF2E /* UITableView+QMUIStaticCell.m */,
+			);
+			name = QMUIStaticTableView;
+			sourceTree = "<group>";
+		};
+		E1B42BFD82CCE0197C5BFBC7FED6F16A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49E1A8F212B7B33742E9CF9F586E0742 /* FDFullscreenPopGesture.framework */,
+				C16EB8B3B6BE63E843087C45AC6B5612 /* Pods_TestQmui.framework */,
+				13046B84B92A0FD219B2558FB4885909 /* QMUIKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1AEDF980BC5399B33C9620D5078BA0D3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				776702E8743007AC3AFC1E7F76299616 /* FDFullscreenPopGesture-umbrella.h in Headers */,
+				1C4F35092211F226DC56EFD272A292BC /* UINavigationController+FDFullscreenPopGesture.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9C35DC3A47766D3C7E3E17C72267CC4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5657A1A32601E0ABB7A9730B09216028 /* CALayer+QMUI.h in Headers */,
+				C2783FC6F04632DCE54CF15EB382E5F1 /* NSArray+QMUI.h in Headers */,
+				1F9934D3735877AB43A5823D586D2A05 /* NSAttributedString+QMUI.h in Headers */,
+				A17EAC896CB371DFC80B6835CA94134E /* NSObject+QMUI.h in Headers */,
+				2F27FDB59CE32AA6F21D5646B8D9A2C8 /* NSParagraphStyle+QMUI.h in Headers */,
+				A75EB6EFC2BCB49E1F256929E4C6F7FC /* NSString+QMUI.h in Headers */,
+				9404B95A108081B29722232895E9BF14 /* QMUIAlbumViewController.h in Headers */,
+				802D853E5AA9EBE87706DB4CB246CAD8 /* QMUIAlertController.h in Headers */,
+				E47B94D07B1E2DE45723E482871D636E /* QMUIAsset.h in Headers */,
+				CB26FB9957C92826C15BEA36400EC3B0 /* QMUIAssetsGroup.h in Headers */,
+				1988919AE86130120E57870FA70293FE /* QMUIAssetsManager.h in Headers */,
+				123D4A7FE5133B8403C7237F4805FDC4 /* QMUIButton.h in Headers */,
+				A1B875AC87583BAC7D4D5E816EBC0E53 /* QMUICellHeightCache.h in Headers */,
+				A2D577B9A4223F3D8F02D0AF1F351B6E /* QMUICollectionViewPagingLayout.h in Headers */,
+				4E454B3B54FBEB7C458FC2075B770F94 /* QMUICommonDefines.h in Headers */,
+				9189320614255318A39F5667668E0923 /* QMUICommonTableViewController.h in Headers */,
+				736B57A16080B3AA0B4FC0B4C5BDE9D2 /* QMUICommonViewController.h in Headers */,
+				BBE9FCD66BF09045C18BA93B334DA307 /* QMUIConfiguration.h in Headers */,
+				1627A5FABD5BEF752AB1A9D4CEFF0FD7 /* QMUIConfigurationMacros.h in Headers */,
+				1434978A711BB7A86978438EE07C1400 /* QMUICore.h in Headers */,
+				A30AF697037C198106CDA248C98ECA7A /* QMUIDialogViewController.h in Headers */,
+				E39CA5C00D716F93711371E5E7764BC4 /* QMUIEmotionInputManager.h in Headers */,
+				AC3DFF9284C7A2F6D39A3C0807CBCFF3 /* QMUIEmotionView.h in Headers */,
+				BA81D8D2192AD914A62A9E4F2FA7EFA1 /* QMUIEmptyView.h in Headers */,
+				268426AD2C2BB40267261035AC1DD6C7 /* QMUIFloatLayoutView.h in Headers */,
+				6B936DE03103D2D128EFE4394D0EA463 /* QMUIGridView.h in Headers */,
+				6E3E8F26B67C294E6DFD714D0C57A8DB /* QMUIHelper.h in Headers */,
+				6BF473AD03CB4D860862A2404398C44A /* QMUIImagePickerCollectionViewCell.h in Headers */,
+				4C252D0BEC2E201A48F48F60849C7A8A /* QMUIImagePickerHelper.h in Headers */,
+				889BE4ECD97A307F320D08A5EA888D02 /* QMUIImagePickerPreviewViewController.h in Headers */,
+				D91F660B3A42815F8F0DC8F62A743E00 /* QMUIImagePickerViewController.h in Headers */,
+				BEE910036B04A9A1902E6502D65E04ED /* QMUIImagePreviewView.h in Headers */,
+				53107616A138A53BB2A5E226894EBF16 /* QMUIImagePreviewViewController.h in Headers */,
+				9EFCB1881BB06929D81CC68F99CBD1A5 /* QMUIKeyboardManager.h in Headers */,
+				2F50064E0575983F70865FD33F074B7F /* QMUIKit-umbrella.h in Headers */,
+				561CDA5FC725B96AE2B4E2C618BA6C9E /* QMUIKit.h in Headers */,
+				18296FEED7508C87BE4A5EE417D05A06 /* QMUILabel.h in Headers */,
+				0C31172445D19CA97ECAD8A0865D466B /* QMUIMarqueeLabel.h in Headers */,
+				AF1645B5D864D7D50F7FB050AEF2AFEB /* QMUIModalPresentationViewController.h in Headers */,
+				A817B3A5DAD7D234672A7095FE9B27EE /* QMUIMoreOperationController.h in Headers */,
+				6E963CE9285F8F2387320AD3EC3F4900 /* QMUINavigationController.h in Headers */,
+				4DF11B4C34167BAFD4D2105FDF635302 /* QMUINavigationTitleView.h in Headers */,
+				9F3FA947721B87C9ED8D2FDBAD141D94 /* QMUIOrderedDictionary.h in Headers */,
+				A8570A3228B52971C5A6D0758AA3AA81 /* QMUIPieProgressView.h in Headers */,
+				DA620D3059C53F133BE1D263F77204B3 /* QMUIPopupContainerView.h in Headers */,
+				D781128AFCE2534E9AC41B0FF31F8EDC /* QMUIPopupMenuView.h in Headers */,
+				754C05A0CBA63F2BA1F38AE81FBB3046 /* QMUISearchBar.h in Headers */,
+				559DEB3A9C293EDB299F078234353BA7 /* QMUISearchController.h in Headers */,
+				EDC33888BFD4EF56C199AC49D83F3F85 /* QMUISegmentedControl.h in Headers */,
+				D3B0E1E1ADC4324063E4A9FD52340253 /* QMUISlider.h in Headers */,
+				1A110736B092A440DFF148CD31791D83 /* QMUIStaticTableViewCellData.h in Headers */,
+				B5A4E3B42FE1130CEE8EF64D737E041C /* QMUIStaticTableViewCellDataSource.h in Headers */,
+				20F246FF2FD83B9326F8A6228B7ED9C9 /* QMUITabBarViewController.h in Headers */,
+				1D1211E24D1CBC14DE5552A56F6B8BAE /* QMUITableView.h in Headers */,
+				F465E68EF47BC91C6A95BFC2CE43FED6 /* QMUITableViewCell.h in Headers */,
+				AE2B4378E6A842A9914A97FFC0E241C8 /* QMUITableViewHeaderFooterView.h in Headers */,
+				993CCA96163252C61444A6C9F4A41A61 /* QMUITableViewProtocols.h in Headers */,
+				1FC5DB6141CDA032BB9CD583626DF1A4 /* QMUITestView.h in Headers */,
+				7ACD3AC94ECA0D840CA2D5C24E49119D /* QMUITextField.h in Headers */,
+				C32F198927E6C670514FEB9F4CD69C7A /* QMUITextView.h in Headers */,
+				BE157AF0C17E5DD37CE4D5909776E02F /* QMUITips.h in Headers */,
+				A1FD6AF8306524F2928CA6F2F1E59F13 /* QMUIToastAnimator.h in Headers */,
+				0BF634945C4C4398227A77B96B87F293 /* QMUIToastBackgroundView.h in Headers */,
+				781CC2A658CD3974708200052B76F36F /* QMUIToastContentView.h in Headers */,
+				8F72ACA4C416C9F99DCBFE3F5004A107 /* QMUIToastView.h in Headers */,
+				F83BE7F4FB93C83DEE35B999196B5AE2 /* QMUIVisualEffectView.h in Headers */,
+				33BE5DD9AD00359726A2B221B1744418 /* QMUIZoomImageView.h in Headers */,
+				ED6E98645C4864F191AF0F5333405673 /* UIActivityIndicatorView+QMUI.h in Headers */,
+				0B069CC3CD41D4DF2E3D54A1CDF1F6D2 /* UIBezierPath+QMUI.h in Headers */,
+				A7F915DAFF730E4E0CC0A7F00EE1A3F2 /* UIButton+QMUI.h in Headers */,
+				78221B17E89172114C9848AC7DF27D47 /* UICollectionView+QMUI.h in Headers */,
+				911B93C9C771193EB2DAE43B5A0E8DC1 /* UIColor+QMUI.h in Headers */,
+				0121A39DE13999310A69447F31A30176 /* UIControl+QMUI.h in Headers */,
+				B22D4848DD873B8DA80FBC2783D5857B /* UIFont+QMUI.h in Headers */,
+				C9159396CD783B001C8420BF725E9B45 /* UIGestureRecognizer+QMUI.h in Headers */,
+				A3D8A68428248758DBA8C04574AC9081 /* UIImage+QMUI.h in Headers */,
+				01065166393BA612179ED8146B3E2F9C /* UIImageView+QMUI.h in Headers */,
+				606B4C4949621177C04EEDE463ACB228 /* UILabel+QMUI.h in Headers */,
+				CDCE8D356706F7AB7FE5963BDF96DDEA /* UINavigationBar+Transition.h in Headers */,
+				D7775F53B81075CBD7A3D4D7DDB518AB /* UINavigationController+NavigationBarTransition.h in Headers */,
+				22CD8EFEE193F2989F2C70CDB007A3E8 /* UINavigationController+QMUI.h in Headers */,
+				D4B0E3662F90AEF1A05657BB165233D1 /* UIScrollView+QMUI.h in Headers */,
+				8C6BE3434F99C33FAE379ACA21E41D8A /* UISearchBar+QMUI.h in Headers */,
+				255F119FD3C9EB27D4A1C849A90D7709 /* UITabBar+QMUI.h in Headers */,
+				378F8C970BFC7ECED9CC9355B2F58411 /* UITabBarItem+QMUI.h in Headers */,
+				672B8E1309056DF61BF7BA338951BD82 /* UITableView+QMUI.h in Headers */,
+				33448386316A04FD62FE3E7D7C1A5053 /* UITableView+QMUIStaticCell.h in Headers */,
+				B838131B71B8325D08453D7E83896260 /* UITextField+QMUI.h in Headers */,
+				E96F830C6A8698C2DE917E7AF0E6DA69 /* UITextView+QMUI.h in Headers */,
+				2CD0623A8CC34A66A0D6834929487365 /* UIView+QMUI.h in Headers */,
+				211BD595B538AEE99565903DD462DDEE /* UIViewController+QMUI.h in Headers */,
+				447D6C441D1ECECD60F67CA2E7441185 /* UIWindow+QMUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF0829FB8CA32FBA5E62B16D7110616B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				226594E362F244F0D47F90832E1104A7 /* Pods-TestQmui-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 404F7EB5C0136CDDE3194542723E2E7C /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */;
+			buildPhases = (
+				0CD8FCBB22FB3C876868B8B7FA31F603 /* Sources */,
+				DCDB90035DE40F4A4AF65DF3F2124DF6 /* Frameworks */,
+				1AEDF980BC5399B33C9620D5078BA0D3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FDFullscreenPopGesture;
+			productName = FDFullscreenPopGesture;
+			productReference = 49E1A8F212B7B33742E9CF9F586E0742 /* FDFullscreenPopGesture.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C656226403FC84DFA2C9007832CA1315 /* QMUIKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE31DA385A9A3C7EC48E7D3E9741F382 /* Build configuration list for PBXNativeTarget "QMUIKit" */;
+			buildPhases = (
+				C3382369066FE29671AF4D82FD992085 /* Sources */,
+				9483ED1604162941DFFF2A4543057AA6 /* Frameworks */,
+				C9C35DC3A47766D3C7E3E17C72267CC4 /* Headers */,
+				265E9AC5A7066BBEDD379F1BD9394FCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMUIKit;
+			productName = QMUIKit;
+			productReference = 13046B84B92A0FD219B2558FB4885909 /* QMUIKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CA77B5FC64108B3DBB8D1A5B1D54A897 /* Pods-TestQmui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DDDDB6C63BFFB36773469E1EF4DED32 /* Build configuration list for PBXNativeTarget "Pods-TestQmui" */;
+			buildPhases = (
+				D22B39F3A3AB40F601AB4FA2D92B0F67 /* Sources */,
+				7E1293A9FDDCF107AD4429DA7339E1F2 /* Frameworks */,
+				EF0829FB8CA32FBA5E62B16D7110616B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C714A4B5DBCFBD3F7D9CB91C9ED6852 /* PBXTargetDependency */,
+				6477848F5472E47EB75524282750AFDB /* PBXTargetDependency */,
+			);
+			name = "Pods-TestQmui";
+			productName = "Pods-TestQmui";
+			productReference = C16EB8B3B6BE63E843087C45AC6B5612 /* Pods_TestQmui.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E1B42BFD82CCE0197C5BFBC7FED6F16A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */,
+				CA77B5FC64108B3DBB8D1A5B1D54A897 /* Pods-TestQmui */,
+				C656226403FC84DFA2C9007832CA1315 /* QMUIKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		265E9AC5A7066BBEDD379F1BD9394FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				357C477FA00FA6C2740098416E8DB42B /* QMUIResources.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0CD8FCBB22FB3C876868B8B7FA31F603 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB1F81EFD3ED40C7A4D4A1B3822A3528 /* FDFullscreenPopGesture-dummy.m in Sources */,
+				9A87D1D93761F424DBF33165560CE683 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3382369066FE29671AF4D82FD992085 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47194E2DE2E0103D97D8A029743924A0 /* CALayer+QMUI.m in Sources */,
+				385D764A8C9A0E709099F605CDE27852 /* NSArray+QMUI.m in Sources */,
+				809FCFC32CA1E605F60C5E8AB2FAD21F /* NSAttributedString+QMUI.m in Sources */,
+				0F85EEDFBA2E3DDC3BB42C774C4F403F /* NSObject+QMUI.m in Sources */,
+				FB60DEDE74AD0E1D59BDB93F66DE1C39 /* NSParagraphStyle+QMUI.m in Sources */,
+				B859C5260D4FDD942773B8C7AFBD72A1 /* NSString+QMUI.m in Sources */,
+				D0B6C8A800D1F0776840BDBB35115257 /* QMUIAlbumViewController.m in Sources */,
+				AC0FE42F4AF14AA1D67DB717E2214CEB /* QMUIAlertController.m in Sources */,
+				9018236FFEB7D98CCB6AC68BF3A6C0C2 /* QMUIAsset.m in Sources */,
+				72A908AA3CBB7ECA676D23B229743E5B /* QMUIAssetsGroup.m in Sources */,
+				2763315D775B9343B323A904C3E042F9 /* QMUIAssetsManager.m in Sources */,
+				4227426E36A48D63D76D9D676F52D7C2 /* QMUIButton.m in Sources */,
+				69C63CD9B46293230B5CAD5ACD2D1143 /* QMUICellHeightCache.m in Sources */,
+				07B8EFF5FBA0E89EC0243BD69E7EF82D /* QMUICollectionViewPagingLayout.m in Sources */,
+				CDB1DC2AF3F0B85D0428340483E00F79 /* QMUICommonTableViewController.m in Sources */,
+				0D0B0AF9940E3A1C35819985414A919A /* QMUICommonViewController.m in Sources */,
+				476B252D653BBC60576D7FC507977271 /* QMUIConfiguration.m in Sources */,
+				9F14884CAEE5B75625B7513BE69253AA /* QMUIDialogViewController.m in Sources */,
+				19FCCECF7A235B61FCAFE47D2E517686 /* QMUIEmotionInputManager.m in Sources */,
+				394D2FD39F686C3947D807C1802102F1 /* QMUIEmotionView.m in Sources */,
+				5FA98BF8E83342D3EFED2E0862F8AD34 /* QMUIEmptyView.m in Sources */,
+				CF9A7F1791C190B1BB6EAC473A45D3A6 /* QMUIFloatLayoutView.m in Sources */,
+				5BF0C48AA8E7A8BDC9A084999B89524C /* QMUIGridView.m in Sources */,
+				31AD4458626533F1E7B2E2E5A951FD15 /* QMUIHelper.m in Sources */,
+				D37F3B6897875009542CD98B612EE352 /* QMUIImagePickerCollectionViewCell.m in Sources */,
+				D37C98D2F3EFF9F7A34D6B7929392FF8 /* QMUIImagePickerHelper.m in Sources */,
+				161EB3FB30853C1720FAB18ACE4EEEF3 /* QMUIImagePickerPreviewViewController.m in Sources */,
+				16917BFE39CB0E4CAFD348D0B499032B /* QMUIImagePickerViewController.m in Sources */,
+				767B165D62FB11A52D009398B7D458BB /* QMUIImagePreviewView.m in Sources */,
+				A507CBC9EB9BDBD204046389ECFCEBA6 /* QMUIImagePreviewViewController.m in Sources */,
+				A2879C2C189A6C208D0396D12FF02F51 /* QMUIKeyboardManager.m in Sources */,
+				A0DA8B8625DF739178210E1A76A78BE3 /* QMUIKit-dummy.m in Sources */,
+				86653A234D92A0B4987BE8693D90C84F /* QMUILabel.m in Sources */,
+				173BD0D78356A38A4AD7CD3291B5E5D3 /* QMUIMarqueeLabel.m in Sources */,
+				4B57070B29CBE01D774EC93FAF891E60 /* QMUIModalPresentationViewController.m in Sources */,
+				305ED472EB2C6CBDA8C4982BDC0FF251 /* QMUIMoreOperationController.m in Sources */,
+				C0A891CDDAEC46887EFAC184DFAD6EC9 /* QMUINavigationController.m in Sources */,
+				72F9E728FF7ED680A849D952811215B0 /* QMUINavigationTitleView.m in Sources */,
+				324E9D2F9D538170B2AF63B2E9702791 /* QMUIOrderedDictionary.m in Sources */,
+				1834A7DF1075A125528250E64B8C1981 /* QMUIPieProgressView.m in Sources */,
+				CA0F2DE8780B62123ECA765574678A07 /* QMUIPopupContainerView.m in Sources */,
+				841E148FE71C100B6D9647793D3EA677 /* QMUIPopupMenuView.m in Sources */,
+				EDF223B5D213439A4CB3404BBD697931 /* QMUISearchBar.m in Sources */,
+				EA20F98123EADC9D54F4530F5597D83A /* QMUISearchController.m in Sources */,
+				07A6FC479EFECB2C3164B43302DF84D7 /* QMUISegmentedControl.m in Sources */,
+				961C512AB1C9648B17D1B101461C29EC /* QMUISlider.m in Sources */,
+				FA619FCF63E9A7D1A4C8099347433B20 /* QMUIStaticTableViewCellData.m in Sources */,
+				EF9B1306AFAA356051055507EE4A50FC /* QMUIStaticTableViewCellDataSource.m in Sources */,
+				DAA72EF8E42B67013BBF97A3E4C1C098 /* QMUITabBarViewController.m in Sources */,
+				126B1169A1416A962AE98AC640A81B5E /* QMUITableView.m in Sources */,
+				96B2DA11C21AF9DE88A591C5EE0D21A8 /* QMUITableViewCell.m in Sources */,
+				2EC6310AC59E85D3D52D6A0D6B048186 /* QMUITableViewHeaderFooterView.m in Sources */,
+				E5857CD01CF961A2F7FFB709946C2C18 /* QMUITestView.m in Sources */,
+				9CB0AA9424CED0E157BF4D4A766B776E /* QMUITextField.m in Sources */,
+				DC3D57A3F14ED533C009EE7750834348 /* QMUITextView.m in Sources */,
+				A7AC541BD4642C8085F588E73216122C /* QMUITips.m in Sources */,
+				B81FF5AA4C5AF4D524E192A58F18BC0F /* QMUIToastAnimator.m in Sources */,
+				C9C6187821AAA480499D18BE57EF3972 /* QMUIToastBackgroundView.m in Sources */,
+				0F173FC1291200D056619CB473C4BE89 /* QMUIToastContentView.m in Sources */,
+				B15C9646649AE44D6EA5B9B82BE266E3 /* QMUIToastView.m in Sources */,
+				067C5EA6FB4AA3E16DFB14837D46753A /* QMUIVisualEffectView.m in Sources */,
+				A465D5C3BD6C331922BE7E454005AF94 /* QMUIZoomImageView.m in Sources */,
+				BB4BDF6801D4711D14BF0327536A31D6 /* UIActivityIndicatorView+QMUI.m in Sources */,
+				0FC90143C2D11572C7C1EA6A9952BCB2 /* UIBezierPath+QMUI.m in Sources */,
+				2E195E53100BED9225E302A480F7750B /* UIButton+QMUI.m in Sources */,
+				BEE8B06924CBDDC77775C5E61788BE12 /* UICollectionView+QMUI.m in Sources */,
+				649FEF39428866C3E5506E052E21BB6F /* UIColor+QMUI.m in Sources */,
+				9AA27D9D5C3ADD7D4D2D836330EB4BDD /* UIControl+QMUI.m in Sources */,
+				0F6AE4B1E3EEAC5EF04A1E9C38735E54 /* UIFont+QMUI.m in Sources */,
+				7BA18206CB54276D2B8A38BAD733B161 /* UIGestureRecognizer+QMUI.m in Sources */,
+				102EE5298032D8E452596C674F2EE3BA /* UIImage+QMUI.m in Sources */,
+				B76CF12DE365006472B0A5F720CE6099 /* UIImageView+QMUI.m in Sources */,
+				C6A695A1CF88AFE3F8BD59772E0206A0 /* UILabel+QMUI.m in Sources */,
+				9C2D4A5B821A30F94F3E93D37E45BAB4 /* UINavigationBar+Transition.m in Sources */,
+				2610B176340A78575241484767E1F4EA /* UINavigationController+NavigationBarTransition.m in Sources */,
+				FA3F6C26BBAFE2E3AF2192D3CF755FBE /* UINavigationController+QMUI.m in Sources */,
+				56AB0F68C27D9150CB071AF9D445CE36 /* UIScrollView+QMUI.m in Sources */,
+				9D10CA045F8BC83A009047A01E4AD2D0 /* UISearchBar+QMUI.m in Sources */,
+				585B20FF476D9F3FD6D5B18DEB2EB846 /* UITabBar+QMUI.m in Sources */,
+				31C00BF0D424892A4499BA615965316F /* UITabBarItem+QMUI.m in Sources */,
+				A023A1ED17E60C89AA2A0B927EF58F0C /* UITableView+QMUI.m in Sources */,
+				5B9BA63F9CBEF99B578FC1D3BC9D7587 /* UITableView+QMUIStaticCell.m in Sources */,
+				11102DD43E2C2B66222FE6852A1FE3B6 /* UITextField+QMUI.m in Sources */,
+				BC2893AA03D492C0CF69D914B04F68C8 /* UITextView+QMUI.m in Sources */,
+				256AA22815CF3C743673D126DD0A3ADB /* UIView+QMUI.m in Sources */,
+				72455BE19666DE1902C8CBBC7B6D2B09 /* UIViewController+QMUI.m in Sources */,
+				F27D3044A1BAB59E71B6D713B0EEC131 /* UIWindow+QMUI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D22B39F3A3AB40F601AB4FA2D92B0F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE35A321577E552E7A3F044346E6FA7E /* Pods-TestQmui-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6477848F5472E47EB75524282750AFDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QMUIKit;
+			target = C656226403FC84DFA2C9007832CA1315 /* QMUIKit */;
+			targetProxy = 735CCC836BDB67DDA75E864DDAAA7DBE /* PBXContainerItemProxy */;
+		};
+		6C714A4B5DBCFBD3F7D9CB91C9ED6852 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FDFullscreenPopGesture;
+			target = 0F71FC248875B67F53494C44B17B40EB /* FDFullscreenPopGesture */;
+			targetProxy = 4207044C0CFD25FC6CE99BEAA6620876 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2911CAD977F741026CA6A9F2B349A373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1FB3E2A6DCD8EB27631A204FF10335 /* QMUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMUIKit/QMUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMUIKit/QMUIKit.modulemap";
+				PRODUCT_MODULE_NAME = QMUIKit;
+				PRODUCT_NAME = QMUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3F326B8CFD13A5DBB6E03AF59FF67706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D1FB3E2A6DCD8EB27631A204FF10335 /* QMUIKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/QMUIKit/QMUIKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/QMUIKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/QMUIKit/QMUIKit.modulemap";
+				PRODUCT_MODULE_NAME = QMUIKit;
+				PRODUCT_NAME = QMUIKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4F84F8A8097A28D80E0F34AB850F3E0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C203393A2CC27E68A5FC9C6035220903 /* Pods-TestQmui.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestQmui/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestQmui/Pods-TestQmui.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		96ED4532A59B43991F3E61ED0972E277 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CE7B2D1BC07E30719EE659B2F6B924 /* Pods-TestQmui.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TestQmui/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TestQmui/Pods-TestQmui.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7F95F580AB61C3851EAA1577165DD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA999C784AAD8E866C82E735AF1DA312 /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CC03673139042B2882F1158B80543150 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA999C784AAD8E866C82E735AF1DA312 /* FDFullscreenPopGesture.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FDFullscreenPopGesture/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FDFullscreenPopGesture/FDFullscreenPopGesture.modulemap";
+				PRODUCT_MODULE_NAME = FDFullscreenPopGesture;
+				PRODUCT_NAME = FDFullscreenPopGesture;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DDDDB6C63BFFB36773469E1EF4DED32 /* Build configuration list for PBXNativeTarget "Pods-TestQmui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96ED4532A59B43991F3E61ED0972E277 /* Debug */,
+				4F84F8A8097A28D80E0F34AB850F3E0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		404F7EB5C0136CDDE3194542723E2E7C /* Build configuration list for PBXNativeTarget "FDFullscreenPopGesture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC03673139042B2882F1158B80543150 /* Debug */,
+				A7F95F580AB61C3851EAA1577165DD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE31DA385A9A3C7EC48E7D3E9741F382 /* Build configuration list for PBXNativeTarget "QMUIKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F326B8CFD13A5DBB6E03AF59FF67706 /* Debug */,
+				2911CAD977F741026CA6A9F2B349A373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

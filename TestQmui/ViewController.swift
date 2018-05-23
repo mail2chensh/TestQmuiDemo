@@ -9,10 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.title = "\(String(describing: self.navigationController?.viewControllers.count))"
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +23,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func ButtonDidTouch(_ sender: Any) {
+        self.navigationController?.pushViewController(TestViewController(), animated: true)
+    }
+    
 }
 
